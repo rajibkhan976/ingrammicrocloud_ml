@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Cette fonctionnalité est disponible en version pro: <a href='http://www."
+"wpcode-united.com/wordpress-plugin/dropfiles'>Acheter</a>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Damien BARRERE\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"Language: fr_FR\n"
+
+msgid "WP File Download"
+msgstr "WP File Download"
+
+msgid "Theme config"
+msgstr "Thème config"
+
+msgid "Error!"
+msgstr "Erreur!"
+
+msgid "Be careful security testing was impossible to check"
+msgstr "Attention impossible de tester la sécurisation de votre serveur"
+
+msgid "Warning!"
+msgstr "Attention!"
+
+msgid "WP File Download Configuration"
+msgstr "Configuration de WP File Download"
+
+msgid "Main parameters"
+msgstr "Paramètres principaux"
+
+msgid "Include jQuery file"
+msgstr "Inclure jQuery"
+
+msgid "Include jQuery-ui"
+msgstr "Inclure jQuery-ui"
+
+msgid "Allowed extensions"
+msgstr "Extensions autorisées"
+
+msgid "Galerie par dÃ©faut"
+msgstr "Galerie par défaut"
+
+msgid "Marge gauche (px)"
+msgstr "Marge gauche (px)"
+
+msgid "Marche haut (px)"
+msgstr "Marche haut (px)"
+
+msgid "Marge droite (px)"
+msgstr "Marge droite (px)"
+
+msgid "Marge bas (px)"
+msgstr "Marge bas (px)"
+
+msgid "WP File Download Files Manager"
+msgstr "WP File Download Gestionnaire de fichiers"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "You're not allowed to perform this action"
+msgstr "Vous n'êtes pas autorisé à faire cette action"
+
+msgid "Let's go"
+msgstr "C'est parti"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Thumbnails have been regenerated successfully"
+msgstr "Les miniatures ont été regénérées avec succès"
+
+msgid "Error while regenerating thumbnails"
+msgstr "Erreur lors de la regénération des miniatures"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "New category"
+msgstr "Nouvelle catégorie"
+
+msgid "Delete category"
+msgstr "Supprimer la catégorie"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Radius (in px)"
+msgstr "Arrondi (en px)"
+
+msgid "Margin (in px)"
+msgstr "Marge (en px)"
+
+msgid "Border (in px)"
+msgstr "Bordure (en px)"
+
+msgid "Border color"
+msgstr "Couleur de bordure"
+
+msgid "Shadow (in px)"
+msgstr "Ombrage (en px)"
+
+msgid "Shadow color"
+msgstr "Couleur d'ombrage"
+
+msgid "Insert this category"
+msgstr "Insérer la catégorie"
+
+msgid "Insert this file"
+msgstr "Insérer le fichier"
+
+msgid "Send a new version"
+msgstr "Envoyer une nouvelle version"
+
+msgid "hits"
+msgstr "tél."
+
+msgid "Guest"
+msgstr "Invité"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Visibility"
+msgstr "Visibilité"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "Private"
+msgstr "Privé"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Alt"
+msgstr "Alt"
+
+msgid "Hits"
+msgstr "Téléchargements"
+
+msgid "Access level"
+msgstr "Access level"
+
+msgid "Access level which can see this category"
+msgstr "Access level which can see this category"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Wrong Category"
+msgstr "Mauvaise catégorie"
+
+msgid "Wrong file"
+msgstr "Mauvais fichier"
+
+msgid "Wrong http response"
+msgstr "Mauvaise réponse http"
+
+msgid "Wrong file extension"
+msgstr "Mauvaise extension de fichier"
+
+msgid "Cant move uploaded file"
+msgstr "Impossible de déplacer l'image envoyée"
+
+msgid "Cant create files"
+msgstr "Impossible de créer les fichier"
+
+msgid "Cant save to database"
+msgstr "Impossible de sauvegarder dans la base de données"
+
+msgid "Drop images here to upload"
+msgstr "Déposez vos fichiers ici pour les envoyer"
+
+msgid "Or use the button below"
+msgstr "Ou utilisez le bouton suivant"
+
+msgid "Select files"
+msgstr "Choisir les fichiers"
+
+msgid "Are you sure"
+msgstr "Êtes vous sûr"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Edit"
+msgstr "Editer"
+
+msgid "Your browser does not support HTML5 file uploads"
+msgstr "Votre navigateur ne supporte pas l'upload de fichier HTML5"
+
+msgid "Too many files"
+msgstr "Trop de fichier"
+
+msgid "is too large"
+msgstr "est trop lourde"
+
+msgid "Only images are allowed"
+msgstr "Uniquement les images sont acceptées"
+
+msgid "Do you want to delete &quot;"
+msgstr "Voulez vous vraiment supprimer &quot;"
+
+msgid "Image parameters"
+msgstr "Paramètres de l'image"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Confirm"
+msgstr "Valider"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Select a theme"
+msgstr "Selectionner thème"
+
+msgid "Margin left"
+msgstr "Marge gauche"
+
+msgid "Margin top"
+msgstr "Marge haute"
+
+msgid "Margin right"
+msgstr "Marge droite"
+
+msgid "Margin bottom"
+msgstr "Marge basse"
+
+msgid "Show title"
+msgstr "Afficher le titre"
+
+msgid "Show weight"
+msgstr "Afficher le poids"
+
+msgid "Show hits"
+msgstr "Afficher les téléchargements"
+
+msgid "Show version"
+msgstr "Afficher la version"
+
+msgid "Show download link"
+msgstr "Afficher le lien de téléchargement"
+
+msgid "Show date added"
+msgstr "Afficher la date d'ajout"
+
+msgid "Show date modified"
+msgstr "Afficher la date de modification"
+
+msgid "Show subcategories"
+msgstr "Afficher les sous-catégories"
+
+msgid "Back to"
+msgstr "Revenir à"
+
+msgid "Download"
+msgstr "Télécharger"
+
+msgid "Hits :"
+msgstr "Téléchargements :"
+
+msgid "Version :"
+msgstr "Version :"
+
+msgid "Size :"
+msgstr "Poids :"
+
+msgid "Size"
+msgstr "Poids"
+
+msgid "Date added :"
+msgstr "Date d'ajout :"
+
+msgid "Date added"
+msgstr "Date d'ajout"
+
+msgid "Date modified :"
+msgstr "Date de modification :"
+
+msgid "Date modified"
+msgstr "Date de modification"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Max upload file size (mo)"
+msgstr "Taille d'envoi maximum (mo)"
+
+msgid "Server allows "
+msgstr "Le serveur permet "
+
+msgid "Show description"
+msgstr "Afficher la description"
+
+msgid "Show category title"
+msgstr "Afficher le titre de la catégorie"
+
+msgid "Show background title"
+msgstr "Afficher l'arrière plan du titre"
+
+msgid "Show tree border"
+msgstr "Afficher la bordure"
+
+msgid "Stylize table"
+msgstr "Styliser la table"
+
+msgid "Stylize menu"
+msgstr "Styliser le menu"
+
+msgid "Columns"
+msgstr "Colonnes"

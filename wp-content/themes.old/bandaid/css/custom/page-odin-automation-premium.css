@@ -1,0 +1,36 @@
+/*
+Theme Name: bandaid
+*/
+
+
+/***********************************************************************************************************************************
+	General
+***********************************************************************************************************************************/
+
+#odin-automation-premium #blocks {
+  margin-top: 30px;
+}
+
+#odin-automation-premium #blocks .col-md-2 {
+  padding: 5px;
+}
+
+#odin-automation-premium .block {
+  background: #e9e8e8;
+  padding: 20px;
+  min-height: 150px;
+}
+
+#odin-automation-premium .block .red-text {
+  color: #9D0C22;
+  font-size: 30px;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+#odin-automation-premium .block .gray-text {
+  color: #555;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+}

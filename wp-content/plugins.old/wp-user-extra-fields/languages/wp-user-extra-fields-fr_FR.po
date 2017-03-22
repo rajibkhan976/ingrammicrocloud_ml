@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress user extra fields\n"
+"POT-Creation-Date: 2016-06-07 17:03+0100\n"
+"PO-Revision-Date: 2016-06-07 17:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/admin/WPUEF_Configurator.php:23
+msgid "Extra fields configuration"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:75 classes/com/WPUEF_HtmlHelper.php:180
+#: classes/com/WPUEF_HtmlHelper.php:381 classes/com/WPUEF_HtmlHelper.php:531
+#: classes/com/WPUEF_HtmlHelper.php:661 classes/com/WPUEF_HtmlHelper.php:779
+msgid "( Max size: "
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:119 classes/com/WPUEF_HtmlHelper.php:229
+#: classes/com/WPUEF_HtmlHelper.php:429 classes/com/WPUEF_HtmlHelper.php:584
+#: classes/com/WPUEF_HtmlHelper.php:707 classes/com/WPUEF_HtmlHelper.php:821
+msgid ""
+"Please upgrade your browser, because your current browser lacks some new "
+"features we need!"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:120 classes/com/WPUEF_HtmlHelper.php:230
+#: classes/com/WPUEF_HtmlHelper.php:430 classes/com/WPUEF_HtmlHelper.php:585
+#: classes/com/WPUEF_HtmlHelper.php:708 classes/com/WPUEF_HtmlHelper.php:822
+msgid "Choosen file is too big and will not be uploaded!"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:121 classes/com/WPUEF_HtmlHelper.php:231
+#: classes/com/WPUEF_HtmlHelper.php:431 classes/com/WPUEF_HtmlHelper.php:586
+#: classes/com/WPUEF_HtmlHelper.php:709 classes/com/WPUEF_HtmlHelper.php:823
+msgid "The File APIs are not fully supported in this browser."
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:122
+msgid "Required fields cannot be left empty."
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:270 classes/com/WPUEF_HtmlHelper.php:368
+#: classes/com/WPUEF_HtmlHelper.php:518 classes/com/WPUEF_HtmlHelper.php:652
+#: classes/com/WPUEF_HtmlHelper.php:767 classes/com/WPUEF_HtmlHelper.php:860
+msgid "Download / View"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:371 classes/com/WPUEF_HtmlHelper.php:521
+#: classes/com/WPUEF_HtmlHelper.php:769
+msgid "Delete"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:427 classes/com/WPUEF_HtmlHelper.php:582
+#: classes/com/WPUEF_HtmlHelper.php:819
+msgid "Click on the update user profile button to delete the file."
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:428 classes/com/WPUEF_HtmlHelper.php:583
+#: classes/com/WPUEF_HtmlHelper.php:820
+msgid "Are you sure to delete the file?"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:466
+msgid "Extra Info"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:577
+msgid "Save changes"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:741
+msgid "Customer extra fields"
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:742
+msgid "NOTE: click on \"Save order\" button to save changes."
+msgstr ""
+
+#: classes/com/WPUEF_HtmlHelper.php:824
+msgid "Fill all the required fields"
+msgstr ""
+
+#: extra-fields.php:64
+msgid "Extra fields"
+msgstr ""

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.savetfileparams">
+    <input
+            name="singlebg"
+            type="text"
+            label="Background color"
+            value="#444444"
+            class="inputbox input-block-level wp-color-field"
+            data-default-color="#444444"
+            />
+    <input
+            name="singlehover"
+            type="text"
+            label="Hover color"
+            value="#888888"
+            class="inputbox input-block-level wp-color-field"
+            data-default-color="#888888"
+            />
+    <input
+        name="singlefontcolor"
+        type="text"
+        label="Font color"
+        value="#ffffff"
+        class="inputbox input-block-level wp-color-field"
+        data-default-color="#ffffff"
+        />
+    
+    <button
+        type="submit"
+        value="Save"
+        class="button button-primary"
+    />
+
+</form>

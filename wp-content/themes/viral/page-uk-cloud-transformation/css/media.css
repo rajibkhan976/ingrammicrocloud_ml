@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media (max-width: 1200px) {
+	
+#headerimage {
+	width:100%;
+}
+
+.header, .footer, .row, .rail {
+	width: 90%;
+	float:none;
+}
+.main {
+	width: 100%;
+}
+}
+
+
+@media (max-width: 930px) {
+
+.links, .footer .recommends, .footer .social  {
+	float:left;
+	padding-left:0;
+	display:block;
+	width:100%;
+}
+.footer .links  {
+	padding-left:0;
+	display:block;
+	width:100%;
+	margin:20px 0 0 0;
+	text-align:left;
+}
+.footer .social img {
+	margin:15px 6px 0 0;
+}
+}
+
+@media (max-width: 630px) {
+
+h1 {
+	font-size:45px;
+}
+h2 {
+	font-size:24px;
+}
+h3 {
+	font-size:24px;
+	margin-bottom:20px
+}
+h3 strong {
+	font-size:30px;
+}
+p.intro {
+	font-size: 20px;
+	line-height: 135%;
+}
+
+.header, .footer {
+}
+img.logo {
+	margin-top:10px;;
+	max-width:100%;
+}
+p.intro {
+	font-size: 16px;
+	background-image:none;
+	padding-left:0;
+}
+.mobileonly {
+	display:inherit;
+}
+.desktoponly {
+	display:none;
+}
+.main, .rail {
+	float:none;
+	display:block;
+	width:100%;
+	margin-right:0;	
+}
+.icons {
+	display:block;
+}
+.rail h3 strong {
+	font-size: 34px;
+}
+
+}

@@ -1,0 +1,26 @@
+/*
+Theme Name: bandaid
+Author: Brian Wobst
+Version: 0.0.1
+Tags: bandaid
+*/
+/* Hide Elements */
+
+/*font-family: "Gotham SSm A", "Gotham SSm B";*/
+/*font-style: normal;*/
+/*font-weight: 300;*/
+
+/*font-family: "Gotham SSm A", "Gotham SSm B";*/
+/*font-style: normal;*/
+/*font-weight: 500;*/
+
+@import url('https://cloud.typography.com/7660872/660702/css/fonts.css');
+
+#switch, .overlay-add, .post-preview-info, h1.h1-no-blue-line::after, .page-heading, .comments-links, .recent-preview, .layer a[data-rel="prettyPhoto"], #clearajax, .wpb_prev_slide, .wpb_next_slide, #post-0, .content > .post-featured-image, #loading, #qLoverlay {
+	display: none !important;	
+}
+.ubermenu.ubermenu-transition-slide .ubermenu-active>.ubermenu-submenu.ubermenu-submenu-type-mega, .ubermenu:not(.ubermenu-transition-slide) .ubermenu-submenu.ubermenu-submenu-type-mega {
+    -webkit-transform: none !important;
+    -webkit-backface-visibility: visible !important;
+	clip: auto;
+}

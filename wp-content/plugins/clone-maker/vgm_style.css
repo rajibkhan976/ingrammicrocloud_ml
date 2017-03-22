@@ -1,0 +1,5 @@
+.vgm_box_clone{display: block;background:#eee;border-bottom: 1px solid #ccc;padding: 5px;text-decoration:none;}
+.vgm_box_clone:hover{background:#222;color:#eee}
+.vgm_box_clone:after{content:">";float:right;
+    font-size: 0; width:16px;height:16px; background: url("page_copy.png") no-repeat right center;}
+.vgm_box_hold li{margin:0}

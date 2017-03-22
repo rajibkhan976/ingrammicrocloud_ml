@@ -1,0 +1,22 @@
+/***********************************************************************************************************************************
+	Sidebar - Categories
+***********************************************************************************************************************************/
+
+#sidebar-category h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+#sidebar-category ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar-category ul li {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+#sidebar-category ul a {
+  color: #333;
+}

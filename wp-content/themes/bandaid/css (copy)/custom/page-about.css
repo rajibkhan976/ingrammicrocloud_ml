@@ -1,0 +1,24 @@
+/*
+Theme Name: bandaid
+*/
+
+
+/***********************************************************************************************************************************
+	General
+***********************************************************************************************************************************/
+
+#about {
+    background-color: #fff;
+}
+
+#about #panel-header {
+    background: url("/wp-content/themes/bandaid/img/page-about/about-us-banner.jpg") no-repeat scroll center top;
+    background-size: cover;
+}
+#about #video-row img {
+  max-width: 450px;
+}
+
+#about #video-row a {
+  display: inline-block;
+}

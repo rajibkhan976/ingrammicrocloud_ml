@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;theme=tree&amp;task=config.savethemeparams">
+    <input
+        name="tree_showbgtitle"
+        type="select"
+        label="Show background title"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <input
+        name="tree_showtreeborder"
+        type="select"
+        label="Show tree border"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showsize"
+        type="select"
+        label="Show weight"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <input
+            name="tree_bgdownloadlink"
+            type="text"
+            label="Background download link"
+            value="#76bc58"
+            class="inputbox input-block-level wp-color-field"
+            />
+
+    <input
+            name="tree_colordownloadlink"
+            type="text"
+            label="Color download link"
+            value="#ffffff"
+            class="inputbox input-block-level wp-color-field"
+            />
+    <input
+        name="tree_showtitle"
+        type="select"
+        label="Show title"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showdescription"
+        type="select"
+        label="Show description"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showversion"
+        type="select"
+        label="Show version"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showhits"
+        type="select"
+        label="Show hits"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showdateadd"
+        type="select"
+        label="Show date added"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showdatemodified"
+        type="select"
+        label="Show date modified"
+        value="0"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showsubcategories"
+        type="select"
+        label="Show subcategories"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="tree_showcategorytitle"
+        type="select"
+        label="Show category title"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <button
+        type="submit"
+        value="Save"
+        class="button button-primary"
+    />
+
+</form>

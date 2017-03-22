@@ -1,0 +1,197 @@
+/*
+Theme Name: bandaid
+*/
+
+/***********************************************************************************************************************************
+	General
+***********************************************************************************************************************************/
+
+.category-page {
+	background: #F0EFEF;
+}
+
+/***********************************************************************************************************************************
+	Panel - Header
+***********************************************************************************************************************************/
+
+.category-page #panel-header {
+  background: #e0e0e0;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.category-page #panel-header #left-column {
+	margin-top: 25px;
+}
+
+.category-page #panel-header svg {
+	max-height: 75px;
+}
+
+.category-page #panel-header svg .cls-1 {
+	fill: #0071ba;
+}
+
+.category-page #panel-header h1 {
+	margin-top: 0;
+	font-size: 30px;
+	height: 75px;
+	vertical-align: middle;
+	 display: table-cell;
+}
+
+.category-page #panel-header h2 {
+  font-size: 18px;
+}
+
+/***********************************************************************************************************************************
+	Panel - Solutions
+***********************************************************************************************************************************/
+
+.category-page #panel-solutions #marketplace-container, .category-page #panel-solutions #catalog-container,.category-page #panel-solutions #catalog-container-cc,.category-page #panel-solutions #catalog-container-security,.category-page #panel-solutions #catalog-container-infrastructure ,.category-page #panel-solutions #catalog-container-vs {
+	background: #F8F7F7;
+}
+
+.category-page #panel-solutions #marketplace-container {
+	min-height: 375px;
+	padding:40px;
+}
+
+.category-page #panel-solutions #marketplace-container .slick-track {
+	margin: auto;
+}
+
+.category-page #panel-solutions #marketplace-container #category-solutions {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.category-page #panel-solutions #marketplace-container #category-solutions i {
+	margin: 5% 50%;
+}
+
+.category-page #panel-solutions #marketplace-container #category-solutions #cta {
+    float: right;
+    margin: 30px 0;
+}
+
+.category-page #panel-solutions #catalog-container,.category-page #panel-solutions #catalog-container-cc,.category-page #panel-solutions #catalog-container-security,.category-page #panel-solutions #catalog-container-infrastructure,.category-page #panel-solutions #catalog-container-vs,.category-page #panel-solutions #catalog-container-cms {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.category-page #panel-solutions #catalog-container #header-text,.category-page #panel-solutions #catalog-container-cc #header-text,.category-page #panel-solutions #catalog-container-security #header-text,.category-page #panel-solutions #catalog-container-infrastructure #header-text,.category-page #panel-solutions #catalog-container-vs #header-text,.category-page #panel-solutions #catalog-container-cms #header-text {
+    margin: 40px 40px 30px 50px;
+}
+
+.category-page #panel-solutions #catalog-container #cta,.category-page #panel-solutions #catalog-container-cc #cta,.category-page #panel-solutions #catalog-container-security #cta,.category-page #panel-solutions #catalog-container-infrastructure #cta,.category-page #panel-solutions #catalog-container-vs #cta,.category-page #panel-solutions #catalog-container-cms #cta {
+    float: right;
+    margin: 30px 0;
+}
+
+.category-page #panel-solutions .solution {
+	margin: 0 7px;
+}
+
+.category-page #panel-solutions .solution .logo {
+	padding: 20px;
+}
+
+.category-page #panel-solutions .solution .logo img {
+	max-height: 30px;
+	margin: auto;
+}
+
+.category-page #panel-solutions .solution .solution-container {
+	background-color: #fff;
+	min-height: 165px;
+}
+
+.category-page #panel-solutions .solution .solution-container, .category-page #panel-solutions .solution .solution-container .bottom-half, .category-page #panel-solutions .category {
+	border-radius: 3px;
+}
+
+.category-page #panel-solutions #category-description {
+	margin: 20px 0;
+}
+
+.category-page #panel-solutions .category .name {
+	margin-top: 10px;
+	line-height: 120%;
+	font-size: 16px;
+}
+
+.category-page #panel-solutions .solution-showcase {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.category-page #panel-solutions .category {
+	padding: 20px 10px;
+	height: 150px;
+	opacity: .75;
+	transition: opacity 0.3s ease;
+}
+
+.category-page #panel-solutions .category:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.category-page #panel-solutions .selected-category {
+	border-bottom: 3px solid #51b5fc;
+	background: rgba(0, 0, 0, .1);
+	transition: all 0.1s ease;
+	opacity: 1;
+}
+
+.category-page #panel-solutions .solution .top-half {
+	height: 55px;
+}
+
+.category-page #panel-solutions .solution .bottom-half {
+	height: 110px;
+}
+
+.category-page #panel-solutions .solution a:focus {
+	outline: none;
+}
+
+.category-page #panel-solutions .solution a {
+	color: #222;
+}
+
+.category-page #panel-solutions .solution a:hover {
+	text-decoration: none;
+}
+
+.category-page #panel-solutions .solution .vendor {
+	padding: 15px 10px 0;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+.category-page #panel-solutions .solution .title {
+	line-height: 120%;
+	padding: 0 10px;
+}
+
+.category-page #panel-solutions #cta-section #see-all {
+	width: 275px;
+}
+/*------------------------------responsive------------------------------------------*/
+@media (min-width: 768px) and (max-width:992px) {
+	.category-page #panel-header h1{font-size:18px;height:40px;}
+	.category-page #panel-header h2 {font-size: 16px;line-height: normal;}
+	.category-page #panel-header svg{max-height: 40px;}
+}
+@media (max-width: 767px) {
+.category-page #panel-header svg {display: block;margin: 0 auto;}
+.category-page #panel-header h1{text-align:center;display: block;height: auto;}
+.category-page #panel-header h2 {font-size: 14px;line-height: normal;text-align: center;}
+#sidebar-category {display: block;margin: 0 auto;text-align: center;}
+.category-page #panel-header #left-column {margin-top: 0;}
+#panel-intro img {margin-bottom: 20px;}
+#reseller img {margin: 0 auto 20px;}
+#reseller p {text-align: center;}
+}

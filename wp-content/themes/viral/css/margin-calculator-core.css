@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mobileonly {
+	display:none;
+}
+hr {
+	border: 0;
+	height: 1px;
+    background: #aaaaaa;
+	margin:30px 0;
+}
+
+p.intro {
+	font-size: 24px;
+	line-height: 135%;
+	background-image:url(../images/margin-calculator.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding-left:200px;
+}
+
+#headwrapper, #footerwrapper, .wrapper{
+	padding: 0px;
+	border:0;
+	width: 100%;
+}
+.header, .footer, .row {
+	width: 1200px;
+	margin: 0px auto;
+	padding:5px 0 0 0;
+}
+.header {
+	font-size:12px;
+}
+.header .phone {
+	background-image: url(../images/phone_icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top 4px;
+	padding:0 0 0 20px;
+	margin-top:5px;
+	float:left;
+}
+.phone a:link {
+	color:#444444;
+}
+.social, .contact  {
+	float:right;
+}
+.social  {
+	margin:0;
+	padding:0;
+}
+.social img {
+	border:none;
+	padding:0;
+	margin:5px 0 0 6px;
+}
+img.logo {
+	max-width:100%;
+	float:left;
+	margin-right:55px;
+}
+p.strap {
+	padding:15px 0 0 0;
+	display:block;
+	float:left;
+	margin:0;
+}
+
+.links a:link, .links a:visited {
+	color:#016fc0;
+}
+.links a:hover {
+	color:#444444;
+}
+.main a:link, .main a:visited {
+	color:#444444;
+	font-weight:bold;
+}
+.main a:hover {
+	color:#444444;
+}
+h3 {
+	line-height: 1;
+}
+.main h4 {
+	color: #555555;
+	line-height: 1;
+}
+.main h4, .main p {
+	margin-bottom: 20px;
+}
+.signup {
+	font-size: 20px;
+	line-height:145%;
+	background-color:#f28c2f;
+	padding: 20px 20px 10px 20px;
+	color:#FFF;
+	margin-top:25px;
+}
+.signup a:link, .signup a:visited {
+	color:#FFF;
+}
+.signup a:hover {
+	color:#444444;
+}
+.contact {
+	clear:both;
+	margin-left:20px;
+}
+#wrapper {
+	text-align: left;
+	padding: 0px;
+	border:0;
+	margin: 0px auto;
+}
+.clear {
+	clear:both;
+}
+#headerimage {
+	width: 1330px;
+	margin: 0px auto;
+}
+.headerimage {
+	width:100%;
+	height:auto;
+	margin:0 auto 25px auto;
+}
+.links {
+	float:right;
+	color:#016fc0;
+	font-weight:bold;
+	padding:15px 0 0 0;
+}
+.main {
+	float:left;
+	width:48%;
+	padding-bottom:20px;	
+}
+.rail {
+	float:right;
+	width:48%;
+	padding-bottom:20px;	
+}
+.rail p {
+	font-size: 24px;
+	line-height: 135%;
+}
+img.idc-logo {
+	margin-bottom:20px;
+}
+.rail h3 strong {
+	font-size: 50px;
+}
+.main ul {
+	margin-bottom:25px;
+}
+.main li {
+	list-style-type: disc;
+	margin-left:20px;
+	padding-bottom:10px;
+}
+.smallprint {
+	font-size:12px;
+}
+.form {
+	background-color:#EDEDED;
+	padding:5px 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}

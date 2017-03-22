@@ -1,0 +1,22 @@
+/***********************************************************************************************************************************
+	Sidebar - Platform
+***********************************************************************************************************************************/
+
+#sidebar-platform h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+#sidebar-platform ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar-platform ul li {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+#sidebar-platform ul a {
+  color: #333;
+}

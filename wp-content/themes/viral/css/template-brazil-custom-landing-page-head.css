@@ -1,0 +1,473 @@
+            body {
+                background-color: #717171;
+            }
+
+            #container {
+                width:1280px;
+                margin: 0 auto;
+                height:auto;
+                background-color:#717171;
+
+            }
+
+
+            #contato-tel {
+                background-color: #717171;
+                position: relative;
+                margin-bottom: 50px;     
+            }
+
+            #contato-tel a, #contato-tel a:visited  {
+                text-decoration:none;
+                color:#fff;    
+            }
+
+            #contato-tel p {
+               color: #fff;
+               text-align: right;
+               margin-right: 22px;
+               position: absolute;
+               z-index: 1;
+               top: -2px;
+               right: 30px;
+           }
+
+           #topo-imagem {
+
+            width:1280px;
+                height: 466px;
+            margin-top: -34px;
+        }
+
+        #information-main {
+
+         width:1280px; 
+         background-color:#F2F2F2;
+
+
+     }
+
+     #information-main p {
+    color: #717171;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font: 100 20px gotham_bookregular, arial, tahoma, sans-serif;
+    line-height: 30px;
+    }
+
+
+    #information-main span {
+      font-weight: 700;
+
+  }
+
+  #information-main span.red {
+
+    color: #f00;
+}
+
+
+
+#features {
+  width:1280px; 
+
+  background: url("http://dev.ingrammicrocloud.com/br/wp-content/uploads/sites/54/2016/01/img-1.png") no-repeat 0px 50px;
+  height: 484px;
+  background-color:#F2F2F2;
+      margin-top: -87px;
+}
+
+#features ul {
+  margin: 0;
+  padding-left: 679px;
+  padding-top: 25px;
+  width: 492px;
+}
+
+
+#features li {
+
+
+  color: #717171;   
+  font: 100 17px gotham_bookregular, arial, tahoma, sans-serif;
+  line-height: 22px;
+}
+
+#container-form {
+   width:1280px; 
+   background-color: #46B2AF;
+       height: 1300px;
+}
+
+#chamada-form {            
+     width: 640px;
+    float: left;
+    background: url("http://dev.ingrammicrocloud.com/br/wp-content/uploads/sites/54/2016/01/img-2.png") no-repeat 180px 53px;
+    height: 500px;
+}
+
+#chamada-form h1 {
+      margin-top: 259px;
+    margin-left: 120px;
+    font: 700 50px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #fff;
+}
+
+#chamada-form p {
+
+    margin-left: 120px;
+
+    font: 100 17px gotham_bookregular, arial, tahoma, sans-serif;
+    color:#fff;
+    line-height: 25px;
+        float: left;
+}
+
+#form-div {            
+   width:640px;
+   float:right; 
+       margin-top: -285px;
+   padding-left: 108px;
+   box-sizing: border-box;
+}
+
+
+
+#red-information {
+
+ width: 1280px;
+    background: url("http://dev.ingrammicrocloud.com/br/wp-content/uploads/sites/54/2016/01/img-3.png") no-repeat 0 0;
+    height: 186px;
+    background-color: #F25022;
+}
+
+
+#chamada-red-information {
+  width:640px; 
+  float:left;
+
+  height: 500px;
+
+  margin-top: -100px;
+
+}
+
+
+#chamada-red-information h1 {
+    margin-top: 260px;
+    margin-left: 120px;
+    font: 700 42px gotham_bookregular, arial, tahoma, sans-serif;
+    color:#fff;
+}
+
+#chamada-red-information p {
+
+    margin-left: 120px;
+    font: 100 17px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #fff;
+    line-height: 25px;
+}
+
+#video-red {
+
+  width:640px;
+  float:right; 
+
+
+  height: 500px;
+
+  text-align: center;
+  margin-top: 169px;
+
+
+}
+
+#video-red h2 {
+  font: 100 24px GothamLight, arial, tahoma, sans-serif;
+  color: #fff;
+}
+
+#rodape {
+
+  width:1280px; 
+  height: 127px;
+  background-color:#F25022;
+
+}
+
+#texto-legal {
+
+  width:1280px; 
+  height: 100px;
+  background-color:#717171;
+
+}
+
+#texto-legal p {
+
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+}
+
+
+#form-inscricao p {
+    float: left;
+    clear: both;
+    font: 100 15px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#form-inscricao label {
+    float: left;
+    clear: both;
+    background-color: #ffffff;
+    width: 320px;
+    height: 34px;
+    margin-bottom: 5px;
+}
+
+#form-inscricao label .campo {
+    display: block;
+    padding: 5px;
+    font: 100 15px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #000;
+    margin-top: 2px;
+    margin-left: 4px;
+    width: 300px;
+    border: 1px solid #ffffff;
+}
+
+
+#form-inscricao label.news {
+   
+    background-color: #46B2AF;   
+    width: 243px;
+    font: 100 15px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #fff;
+        margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#form-inscricao button {
+  margin-top: 5px;
+  background-color: #296e6c;
+  font: 100 15px gotham_bookregular, arial, tahoma, sans-serif;
+  color: #fff;
+  border: 0;
+  padding: 7px 12px;
+  clear: both;
+  width: 322px;
+  display: block;
+}
+#form-inscricao label.med {
+    width: 205px;
+}
+
+#form-inscricao label.min {
+       clear: both;
+    width: 110px;
+    margin-left: 0px;
+}
+
+#form-inscricao label.min .campo {
+    width: 95px;
+}
+
+#form-inscricao label.med .campo {
+    width: 185px;
+}
+
+
+#form-inscricao input:focus {
+  outline: none;
+}
+
+#form-inscricao button:focus {
+  outline: none;
+}
+
+#form-inscricao select:focus {
+  outline: none;
+}
+
+#form-inscricao h2 {
+    clear: both;
+    padding-top: 25px;
+    font: 100 24px GothamLight, arial, tahoma, sans-serif;
+    color:#fff;
+}
+
+#form-inscricao span {
+    display: block;
+    float: right;
+    margin-top: -1px;
+}
+
+#contato-tel p {
+    font: 100 18px GothamLight, arial, tahoma, sans-serif;
+    color:#fff;
+}
+
+#video-red a:hover{
+
+  opacity:0.8;
+
+}
+
+#information-main h1 {
+    margin: 0;   
+    margin-left: 110px;
+    margin-right: 110px;
+    font: 700 33px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #c22b2a;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #ffb900;
+    color: #fff;
+    text-align: center;
+    font: 100 33px gotham_bookregular, arial, tahoma, sans-serif;
+    display: inline-block;
+    float: left;
+}
+
+.numberCircle2 {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #f25022;
+    color: #fff;
+    text-align: center;
+    font: 100 33px gotham_bookregular, arial, tahoma, sans-serif;
+    display: inline-block;
+    float: left;
+}
+
+.numberCircle3 {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #7fba00;
+    color: #fff;
+    text-align: center;
+    font: 100 33px gotham_bookregular, arial, tahoma, sans-serif;
+    display: inline-block;
+    float: left;
+}
+
+
+
+.steps {
+ display: inline-block;
+    margin-left: 26px;
+    font: 100 24px gotham_bookregular, arial, tahoma, sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 23px;
+    margin-top: -1px;
+    float: left;
+	color: #fff;
+}
+
+.max-select {
+  width: 320px;
+    float: left;
+    clear: both;
+    margin-left: 0;
+}
+
+#form-inscricao button:hover {
+  opacity:0.8;
+}
+
+.termos {
+     width: 274px;
+    height: 304px;
+    overflow: auto;
+    border: 1px solid #CCC;
+    padding: 25px;
+    padding-top: 27px;
+    padding-left: 19px;
+    padding-bottom: 0px;
+    background-color: #f1f1f1;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+#form-inscricao label.termos-da-promocao {   
+        background-color: #46B2AF;
+     font: 100 15px gotham_bookregular, arial, tahoma, sans-serif;
+    color: #fff;
+    width: 290px;
+    margin-top: 15px;
+}
+
+
+/*************************************************************************************
+ Wufoo Form
+*************************************************************************************/
+
+.wufoo input {
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

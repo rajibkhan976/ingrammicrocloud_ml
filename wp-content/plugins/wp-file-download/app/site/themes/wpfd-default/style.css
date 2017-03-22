@@ -1,0 +1,229 @@
+/**
+ * WP File Download
+ *
+ * @package WP File Download
+ * @author Joomunited
+ * @version 1.0
+ */
+.wpfd-content {
+    overflow: hidden;
+}
+.wpfd-content a:focus {
+    outline: none;
+}
+.wpfd-content-default h2 {
+    margin: 10px 0;
+}
+.wpfd-content-default a {
+    text-decoration: none;
+    border-bottom: 0;
+}
+.wpfd-content-default .file {
+    min-height: 70px;
+    clear: right;
+}
+
+.wpfd-content-default .file > div.ext {
+    height: 80px;
+    width: 50px;
+    float: left;
+    background: url(../../assets/images/theme/neutral.png) center center transparent no-repeat;
+    color: #fff;  
+    position: relative;
+}
+.wpfd-content-default .file > div.ext.ai {background-image : url(../../assets/images/theme/ai.png); color: transparent;}
+.wpfd-content-default .file > div.ext.avi {background-image : url(../../assets/images/theme/avi.png); color: transparent;}
+.wpfd-content-default .file > div.ext.psd {background-image : url(../../assets/images/theme/psd.png); color: transparent;}
+.wpfd-content-default .file > div.ext.css {background-image : url(../../assets/images/theme/css.png); color: transparent;}
+.wpfd-content-default .file > div.ext.csv {background-image : url(../../assets/images/theme/csv.png); color: transparent;}
+.wpfd-content-default .file > div.ext.dll {background-image : url(../../assets/images/theme/dll.png); color: transparent;}
+.wpfd-content-default .file > div.ext.doc {background-image : url(../../assets/images/theme/doc.png); color: transparent;}
+.wpfd-content-default .file > div.ext.docx {background-image : url(../../assets/images/theme/docx.png); color: transparent;}
+.wpfd-content-default .file > div.ext.fla {background-image : url(../../assets/images/theme/fla.png); color: transparent;}
+.wpfd-content-default .file > div.ext.flac {background-image : url(../../assets/images/theme/flac.png); color: transparent;}
+.wpfd-content-default .file > div.ext.flv {background-image : url(../../assets/images/theme/flv.png); color: transparent;}
+.wpfd-content-default .file > div.ext.gif {background-image : url(../../assets/images/theme/gif.png); color: transparent;}
+.wpfd-content-default .file > div.ext.html {background-image : url(../../assets/images/theme/html.png); color: transparent;}
+.wpfd-content-default .file > div.ext.iso {background-image : url(../../assets/images/theme/iso.png); color: transparent;}
+.wpfd-content-default .file > div.ext.jpg {background-image : url(../../assets/images/theme/jpg.png); color: transparent;}
+.wpfd-content-default .file > div.ext.gif {background-image : url(../../assets/images/theme/gif.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mov {background-image : url(../../assets/images/theme/mov.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mpg {background-image : url(../../assets/images/theme/mpg.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mpeg {background-image : url(../../assets/images/theme/mpeg.png); color: transparent;}
+.wpfd-content-default .file > div.ext.ogg {background-image : url(../../assets/images/theme/ogg.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mp3 {background-image : url(../../assets/images/theme/mp3.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mp4 {background-image : url(../../assets/images/theme/mp4.png); color: transparent;}
+.wpfd-content-default .file > div.ext.mkv {background-image : url(../../assets/images/theme/mkv.png); color: transparent;}
+.wpfd-content-default .file > div.ext.swf {background-image : url(../../assets/images/theme/swf.png); color: transparent;}
+.wpfd-content-default .file > div.ext.pdf {background-image : url(../../assets/images/theme/pdf.png); color: transparent;}
+.wpfd-content-default .file > div.ext.php {background-image : url(../../assets/images/theme/php.png); color: transparent;}
+.wpfd-content-default .file > div.ext.png {background-image : url(../../assets/images/theme/png.png); color: transparent;}
+.wpfd-content-default .file > div.ext.ppt {background-image : url(../../assets/images/theme/ppt.png); color: transparent;}
+.wpfd-content-default .file > div.ext.pptx {background-image : url(../../assets/images/theme/ppt.png); color: transparent;}
+.wpfd-content-default .file > div.ext.psd {background-image : url(../../assets/images/theme/psd.png); color: transparent;}
+.wpfd-content-default .file > div.ext.raw {background-image : url(../../assets/images/theme/raw.png); color: transparent;}
+.wpfd-content-default .file > div.ext.sql {background-image : url(../../assets/images/theme/sql.png); color: transparent;}
+.wpfd-content-default .file > div.ext.svg {background-image : url(../../assets/images/theme/svg.png); color: transparent;}
+.wpfd-content-default .file > div.ext.txt {background-image : url(../../assets/images/theme/txt.png); color: transparent;}
+.wpfd-content-default .file > div.ext.wav {background-image : url(../../assets/images/theme/wav.png); color: transparent;}
+.wpfd-content-default .file > div.ext.wmv {background-image : url(../../assets/images/theme/wmv.png); color: transparent;}
+.wpfd-content-default .file > div.ext.xls {background-image : url(../../assets/images/theme/xls.png); color: transparent;}
+.wpfd-content-default .file > div.ext.xlsx {background-image : url(../../assets/images/theme/xlsx.png); color: transparent;}
+.wpfd-content-default .file > div.ext.xml {background-image : url(../../assets/images/theme/xml.png); color: transparent;}
+.wpfd-content-default .file > div.ext.zip {background-image : url(../../assets/images/theme/zip.png); color: transparent;}
+.wpfd-content-default .file > div.ext.rar {background-image : url(../../assets/images/theme/rar.png); color: transparent;}
+.wpfd-content-default .file > div.ext.exe {background-image : url(../../assets/images/theme/exe.png); color: transparent;}
+.wpfd-content-default .file > div.ext .txt {
+    position: absolute;
+    top: 48px;
+    left: 7px;
+    display: block;
+    width: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+}
+.wpfd-content-default .filecontent {
+    margin-left: 85px;
+}
+.wpfd-content-default .file .downloadlink {
+    float: right;
+    padding-top: 15px;
+    background-color: #76bc58;
+    border-color: #76bc58;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wpfd-content-default .file .downloadlink:hover {
+    box-shadow: 1px 1px 12px #ccc;
+}
+.wpfd-content-default h3 {
+    padding-top: 0px;
+    margin: 8px 0 !important;
+    clear: none;
+    font-size: 1em;
+}
+
+div.file div.filecontent div {
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+.wpfd-content-default .wpfdcategory {
+    color: #888888;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    border: solid #eeeeee 0px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#eeeeee));
+    background: -moz-linear-gradient(top, #eeeeee, #eeeeee);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#eeeeee, endColorStr=#eeeeee);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#eeeeee, endColorStr=#eeeeee);
+    display:inline-block; /* IE is so silly */
+}
+
+.wpfd-content-default .wpfdcategory:hover {
+    -webkit-box-shadow: 0px 1px 3px #888888;
+    -moz-box-shadow: 0px 1px 3px #888888;
+    box-shadow: 0px 1px 3px #888888;
+}
+
+.wpfd-content-default .backcategory {
+    float: right;
+}
+
+.wpfd-content-default .with_foldertree .catlink {
+    padding: 0;
+    font-size: 18px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 0;
+    background:transparent;
+}
+
+.wpfd-content-default .with_foldertree .catlink:hover {
+    box-shadow:none;
+    font-weight: bold;
+    webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.wpfd-single-file {
+    display: inline-block;
+}
+.wpfd-single-file a.wpfd-file-link {    
+    background: #444 url("../../assets/images/theme/download.png") no-repeat scroll 5px center;
+    border: medium none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    transition: all 0.2s ease 0s;
+    float: left;
+    margin: 7px;
+    padding: 10px 20px 10px 60px;
+    color: #FFF;
+    text-decoration: none;
+}
+.wpfd-single-file a.wpfd-file-link:hover {
+    background: #888 url("../../assets/images/theme/download.png") no-repeat scroll 5px center;
+    box-shadow: 1px 1px 12px #ccc;
+}
+
+.wpfd-single-file .droptitle {
+    color: #fff;
+    font-weight: bold;
+}
+
+.wpfd-single-file a.wpfd-file-link span.dropinfos b {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.wpfd-content .breadcrumbs {
+    padding: 8px 15px;
+    margin: 10px 0px 0px;
+    list-style: outside none none;
+    background: #eee;
+}
+.wpfd-content .breadcrumbs > li {
+    display: inline-block;   
+}
+.wpfd-content .breadcrumbs a {
+    color: #888
+}
+.wpfd-content .breadcrumbs a:hover {
+    
+}
+
+.wpfd-content  .breadcrumbs > li > .divider {
+    padding: 0px 5px;
+}
+.wpfd-foldertree-default {
+    float:left;
+    width: 30%;
+    padding:0;
+    margin: 0;
+}
+.wpfd-foldertree-default > .jaofiletree  {    
+    margin-top: 20px !important;
+}
+.wpfd-container-default.with_foldertree {
+    float:left;
+    width: 70%;
+    padding:0;
+    margin: 0;
+}

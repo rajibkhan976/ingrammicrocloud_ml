@@ -1,0 +1,22 @@
+/* CSS Document */
+
+div.ve_dzs_video {
+border: 1px dashed #111;
+    text-align: center;
+    padding: 90px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+
+    background-image: url(images/ve_dzs_video_pattern.png);
+}
+/*img.ve_dzs_video:before{*/
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*height: 14px;*/
+    /*background: rgba(0,0,0,0.5);*/
+    /*content: 'ceva';*/
+/*}*/

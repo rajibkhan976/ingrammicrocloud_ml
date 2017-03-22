@@ -1,0 +1,48 @@
+.page-section, .page-section-continued {
+	background-color: #171717;
+}
+
+body #loading{
+	background-color: #171717;
+}
+.recent-post-right{
+	
+	color: #fff;
+}
+
+.main-container{
+	border-left:none;
+	border-right: none;
+}
+.agenda-icon .icon i, .agenda-icon .image{
+	background-color: #171717;
+	
+}
+.sidebar h3, .month, .year, .team-member h2, .headline h2, .headline h3, .headline h2, .comments h3, .sidebar h3, .team-description h5, .portfolio-content h2, h1, h2, h3, h4, h5, h6, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .comments h3, .portfolio-content h2 {
+	color: #fff;
+}
+
+.comments .reply a:before {
+	background-color: #4c4c4c;
+}
+
+
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form textarea, input[type="text"] {
+	background-color: #272727;
+	color: #fff;
+	border: 1px solid #101010;
+}
+
+#submit, .wpcf7-submit {
+
+	background-color: #101010;
+}
+
+.footer-widgetized-section {
+border-top: 5px solid rgba(233,233,233,0.02);
+}
+.page-heading{
+	border-top: 5px solid rgba(233,233,233,0.01);
+	border-bottom: 5px solid rgba(233,233,233,0.02);
+	
+}

@@ -1,0 +1,178 @@
+.am_redux_theme > #redux-form-wrapper {
+  background-color: #222;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-header .display_header {
+  margin: 7px 4px;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-header .display_header h1,
+.am_redux_theme > #redux-form-wrapper > #redux-header .display_header span {
+  float: left;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-header .display_header h1 {
+  color: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-header .display_header .redux-dev-mode-notice {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  float: right;
+  position: relative;
+  font-size: 9px;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .expand_options {
+  display: none;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky #info_bar {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-green,
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-yellow,
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-red,
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .redux-field-errors {
+  color: #fff;
+  border: none;
+  text-shadow: none;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-green {
+  background-color: #2ecc71;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-yellow {
+  background-color: #2980b9;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .notice-red,
+.am_redux_theme > #redux-form-wrapper > #redux-sticky .redux-field-errors {
+  background-color: #e74c3c;
+}
+.am_redux_theme > #redux-form-wrapper > #redux-footer-sticky #redux-footer {
+  background: #fff !important;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar {
+  background-color: #222;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li {
+  background-color: #222;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.divide {
+  border: none;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li a {
+  background: transparent;
+  border: none;
+  opacity: 1;
+  color: #eee;
+  font-size: 14px;
+  font-weight: 400;
+/*padding-right: 3px;*/
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li a i {
+  color: #eee;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li a:hover {
+  background-color: #111;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li a:hover span {
+  color: #3498db;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li a:hover i {
+  color: #3498db;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active a,
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections a {
+  background-color: #2980b9;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active a span,
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections a span {
+  color: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active a i,
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections a i {
+  color: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active a:after,
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections a:after {
+  right: -1px;
+  border: solid 12px transparent;
+  content: "\0020";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #fff;
+  top: 50%;
+  margin-top: -12px;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a,
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.active.hasSubSections.hasSubSections ul.subsection li a {
+  background-color: #333;
+  padding-left: 45px;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a {
+  background-color: #2980b9;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a span {
+  color: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a i {
+  color: #fff;
+}
+.am_redux_theme > #redux-form-wrapper > .redux-sidebar .redux-group-menu li.hasSubSections ul.subsection li.active a:after {
+  right: -1px;
+  border: solid 12px transparent;
+  content: "\0020";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #fff;
+  top: 50%;
+  margin-top: -12px;
+}
+.am_redux_theme .button,
+.am_redux_theme .button-primary,
+.am_redux_theme .button-secondary,
+.am_redux_theme .button:hover,
+.am_redux_theme .button-primary:hover,
+.am_redux_theme .button-secondary:hover {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.am_redux_theme .button-primary {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+.am_redux_theme .button-primary:hover,
+.am_redux_theme .button-primary:focus,
+.am_redux_theme .button-primary:active {
+  background-color: #3498db;
+}
+.am_redux_theme input[type=text] {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 5px;
+}
+.am_redux_theme input[type=text]:focus {
+  border-color: #2980b9;
+}
+.am_redux_theme .redux-container-switch .cb-enable {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.am_redux_theme .redux-container-switch .cb-enable.selected {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-image: none !important;
+  border-color: #2980b9 !important;
+  background-color: #2980b9 !important;
+}
+.am_redux_theme .redux-container-switch .cb-disable {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-image: none !important;
+}
+.am_redux_theme .redux-container-switch .cb-disable.selected {
+  box-shadow: none !important;
+  background-image: none !important;
+  border-color: #333 !important;
+  background-color: #333 !important;
+}

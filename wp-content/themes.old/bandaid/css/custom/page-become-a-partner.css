@@ -1,0 +1,48 @@
+/*
+Theme Name: bandaid
+*/
+
+
+/***********************************************************************************************************************************
+	General
+***********************************************************************************************************************************/
+
+#become-a-partner #panel-intro {
+  background: #e3e3e3;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+#become-a-partner #panel-intro .container {
+  margin-bottom: 30px;
+}
+
+
+#become-a-partner #panel-tabs {
+  margin-bottom: 50px;
+}
+
+#become-a-partner #myTabs {
+  margin-bottom: 40px;
+  margin-top: -44px;
+}
+
+#become-a-partner h1 {
+  font-size: 26px;
+  margin-top: 0;
+  color: #0073b9;
+}
+
+#become-a-partner h3 {
+  margin-top: 0;
+}
+
+#become-a-partner #reseller-tab, #become-a-partner #vendor-tab {
+  color: #0073b9;
+  font-size: 16px;
+}
+
+#become-a-partner button img {
+  height: 30px;
+  margin-right: 10px;
+}

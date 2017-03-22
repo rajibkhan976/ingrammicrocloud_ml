@@ -1,0 +1,382 @@
+.redux-raw-table > tbody > tr > td {
+  width: 100% !important;
+}
+.redux-container-raw {
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 30px !important;
+  word-wrap: break-word;
+}
+.redux-container-raw img {
+  border: 1px solid #ccc !important;
+  padding: 3px;
+}
+.redux-container-raw h1 {
+  font-size: 24px;
+  color: #000;
+}
+.redux-container-raw h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+.redux-container-raw h3 {
+  font-size: 17px;
+}
+.redux-container-raw h4 {
+  font-size: 15px;
+}
+.redux-container-raw h5 {
+  font-size: 13px;
+}
+.redux-container-raw h6 {
+  color: #777;
+  font-size: 12px;
+}
+.redux-container-raw p,
+.redux-container-raw blockquote,
+.redux-container-raw ul,
+.redux-container-raw ol,
+.redux-container-raw dl,
+.redux-container-raw li,
+.redux-container-raw table,
+.redux-container-raw pre {
+  margin: 15px 0;
+}
+.redux-container-raw ul {
+  list-style-type: disc;
+}
+.redux-container-raw table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.redux-container-raw > *:first-child {
+  margin-top: 0 !important;
+}
+.redux-container-raw > *:last-child {
+  margin-bottom: 0 !important;
+}
+.redux-container-raw a .absent {
+  color: #c00;
+}
+.redux-container-raw a .anchor {
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.redux-container-raw a .anchor:focus {
+  outline: none;
+}
+.redux-container-raw h1,
+.redux-container-raw h2,
+.redux-container-raw h3,
+.redux-container-raw h4,
+.redux-container-raw h5,
+.redux-container-raw h6 {
+  margin: 24px 0 20px;
+  padding: 0;
+  font-weight: bold;
+  line-height: 1.7;
+  cursor: text;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+.redux-container-raw h1 .octicon-link,
+.redux-container-raw h2 .octicon-link,
+.redux-container-raw h3 .octicon-link,
+.redux-container-raw h4 .octicon-link,
+.redux-container-raw h5 .octicon-link,
+.redux-container-raw h6 .octicon-link {
+  display: none;
+  color: #000;
+}
+.redux-container-raw h1:hover a.anchor,
+.redux-container-raw h2:hover a.anchor,
+.redux-container-raw h3:hover a.anchor,
+.redux-container-raw h4:hover a.anchor,
+.redux-container-raw h5:hover a.anchor,
+.redux-container-raw h6:hover a.anchor {
+  text-decoration: none;
+  line-height: 1;
+  padding-left: 8px;
+  margin-left: -30px;
+  top: 15%;
+}
+.redux-container-raw h1:hover a.anchor .octicon-link,
+.redux-container-raw h2:hover a.anchor .octicon-link,
+.redux-container-raw h3:hover a.anchor .octicon-link,
+.redux-container-raw h4:hover a.anchor .octicon-link,
+.redux-container-raw h5:hover a.anchor .octicon-link,
+.redux-container-raw h6:hover a.anchor .octicon-link {
+  display: inline-block;
+}
+.redux-container-raw h1 tt,
+.redux-container-raw h2 tt,
+.redux-container-raw h3 tt,
+.redux-container-raw h4 tt,
+.redux-container-raw h5 tt,
+.redux-container-raw h6 tt,
+.redux-container-raw h1 code,
+.redux-container-raw h2 code,
+.redux-container-raw h3 code,
+.redux-container-raw h4 code,
+.redux-container-raw h5 code,
+.redux-container-raw h6 code {
+  font-size: inherit;
+}
+.redux-container-raw p,
+.redux-container-raw blockquote,
+.redux-container-raw ul,
+.redux-container-raw ol,
+.redux-container-raw dl,
+.redux-container-raw table,
+.redux-container-raw pre {
+  margin: 15px 0;
+}
+.redux-container-raw hr {
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC") repeat-x 0 0;
+  border: 0 none;
+  color: #ccc;
+  height: 4px;
+  padding: 0;
+  margin: 15px 0;
+}
+.redux-container-raw ul,
+.redux-container-raw ol {
+  padding-left: 30px;
+}
+.redux-container-raw ul .no-list,
+.redux-container-raw ol .no-list {
+  list-style-type: none;
+  padding: 0;
+}
+.redux-container-raw ul ul,
+.redux-container-raw ul ol,
+.redux-container-raw ol ol,
+.redux-container-raw ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.redux-container-raw dl {
+  padding: 0;
+}
+.redux-container-raw dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin-top: 15px;
+}
+.redux-container-raw dl dd {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.redux-container-raw blockquote {
+  border-left: 4px solid #ddd;
+  padding: 0 15px;
+  color: #777;
+}
+.redux-container-raw blockquote > :first-child {
+  margin-top: 0px;
+}
+.redux-container-raw blockquote > :last-child {
+  margin-bottom: 0px;
+}
+.redux-container-raw table {
+  overflow: auto;
+  display: block;
+}
+.redux-container-raw table th {
+  font-weight: bold;
+}
+.redux-container-raw table th,
+.redux-container-raw table td {
+  border: 1px solid #ddd;
+  padding: 6px 13px !important;
+}
+.redux-container-raw table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+.redux-container-raw table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.redux-container-raw img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.redux-container-raw span.frame {
+  display: block;
+  overflow: hidden;
+}
+.redux-container-raw span.frame > span {
+  border: 1px solid #ddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+.redux-container-raw span.frame span img {
+  display: block;
+  float: left;
+}
+.redux-container-raw span.frame span span {
+  clear: both;
+  color: #333;
+  display: block;
+  padding: 5px 0 0;
+}
+.redux-container-raw span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+.redux-container-raw span.float-left span {
+  margin: 13px 0 0;
+}
+.redux-container-raw code:before,
+.redux-container-raw code:after,
+.redux-container-raw tt:before,
+.redux-container-raw tt:after {
+  content: "\00a0";
+  letter-spacing: -0.2em;
+}
+.redux-container-raw code br,
+.redux-container-raw tt br {
+  display: none;
+}
+.redux-container-raw del code {
+  text-decoration: inherit;
+  vertical-align: text-top;
+}
+.redux-container-raw pre > code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+.redux-container-raw pre {
+  word-wrap: normal;
+}
+.redux-container-raw pre code,
+.redux-container-raw pre tt {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  word-wrap: normal;
+  max-width: initial;
+  display: inline;
+  overflow: initial;
+  line-height: inherit;
+}
+.redux-container-raw pre code:before,
+.redux-container-raw pre tt:before,
+.redux-container-raw pre code:after,
+.redux-container-raw pre tt:after {
+  content: normal;
+}
+.redux-container-raw img {
+  max-width: 100%;
+}
+.redux-container-raw span.frame {
+  display: block;
+  overflow: hidden;
+}
+.redux-container-raw span.frame > span {
+  border: 1px solid #ddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+.redux-container-raw span.frame span img {
+  display: block;
+  float: left;
+}
+.redux-container-raw span.frame span span {
+  clear: both;
+  color: #333;
+  display: block;
+  padding: 5px 0 0;
+}
+.redux-container-raw span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.redux-container-raw span.align-center > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+.redux-container-raw span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+.redux-container-raw span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.redux-container-raw span.align-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+.redux-container-raw span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+.redux-container-raw span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+.redux-container-raw span.float-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+.redux-container-raw code,
+.redux-container-raw tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+.redux-container-raw pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+.redux-container-raw .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}

@@ -1,0 +1,1074 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Viral\n"
+"POT-Creation-Date: 2014-06-28 21:30+0100\n"
+"PO-Revision-Date: 2014-06-28 21:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: Exquisite Themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _();_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPath-3: ..\n"
+
+#: ../404.php:9
+msgid "404"
+msgstr ""
+
+#: ../404.php:10
+msgid "Page not found"
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:556
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/front-end/options.php:43 ../admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: ../admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../archive.php:9
+msgid "Category: "
+msgstr ""
+
+#: ../archive.php:11
+msgid "Posts tagged: "
+msgstr ""
+
+#: ../archive.php:13 ../archive.php:15 ../archive.php:17 ../functions.php:600
+#: ../functions.php:601 ../functions.php:602
+msgid "Archive for: "
+msgstr ""
+
+#: ../archive.php:18
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:43 ../blog.php:281 ../index.php:25 ../search.php:35
+#: ../single.php:40
+msgid "Posted by: "
+msgstr ""
+
+#: ../archive.php:46 ../blog.php:284 ../index.php:28 ../search.php:38
+#: ../single.php:43
+msgid "in "
+msgstr ""
+
+#: ../archive.php:58 ../blog.php:298 ../index.php:40 ../search.php:50
+msgid "Read more..."
+msgstr ""
+
+#: ../comments.php:3
+msgid "Access denied. This post is password protected."
+msgstr ""
+
+#: ../comments.php:9
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:26
+msgid "&lt; Older Comments"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Newer Comments &gt;"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Drop a comment"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Leave a reply to"
+msgstr ""
+
+#: ../functions.php:260
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:260
+msgid "Blog widgets."
+msgstr ""
+
+#: ../functions.php:264
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: ../functions.php:264
+msgid "Portfolio widgets."
+msgstr ""
+
+#: ../functions.php:267
+msgid "Footer Widget 1"
+msgstr ""
+
+#: ../functions.php:278
+msgid "Footer Widget 2"
+msgstr ""
+
+#: ../functions.php:288
+msgid "Footer Widget 3"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Add New Item"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:410
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Nothing to display"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Edit Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Add New Category"
+msgstr ""
+
+#: ../functions.php:421
+msgid "New Category Name"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Separate Categories With Commas"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Add or Remove Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "Choose from Most Used Categories"
+msgstr ""
+
+#: ../functions.php:421
+msgid "No Caategories Found"
+msgstr ""
+
+#: ../functions.php:463
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: ../functions.php:464 ../functions.php:489
+msgid "Recent Posts"
+msgstr ""
+
+#: ../functions.php:547
+msgid "Title:"
+msgstr ""
+
+#: ../functions.php:550
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../functions.php:554
+msgid "Display post date?"
+msgstr ""
+
+#: ../functions.php:603
+msgid "Author Archive"
+msgstr ""
+
+#: ../functions.php:604
+msgid "Blog Archives"
+msgstr ""
+
+#: ../functions.php:605
+msgid "Search results "
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:164 ../inc/plugin-activator.php:106
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:165 ../inc/plugin-activator.php:107
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:166 ../inc/plugin-activator.php:108
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:178
+#: ../inc/class-tgm-plugin-activation.php:490 ../inc/plugin-activator.php:120
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:179
+#: ../inc/class-tgm-plugin-activation.php:1846 ../inc/plugin-activator.php:121
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:517
+#: ../inc/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#: ../inc/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1956
+#: ../inc/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../inc/metaboxes/inc/fields/post.php:68
+#: ../inc/metaboxes/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../inc/metaboxes/inc/meta-box.php:244
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../inc/metaboxes/inc/meta-box.php:418
+msgid "+"
+msgstr ""
+
+#: ../inc/metaboxes/inc/meta-box.php:440
+msgid "&#8211;"
+msgstr ""
+
+#: ../inc/plugin-activator.php:109
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/plugin-activator.php:122
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:14
+#: ../inc/zilla-shortcodes/tinymce/config.php:101
+msgid "Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:18
+msgid "Insert Highlighted Text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:34
+msgid "Year"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:39
+#: ../inc/zilla-shortcodes/tinymce/config.php:44
+msgid "Countdown Color"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:48
+msgid "Insert Countdown"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:62
+msgid "Number"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:63
+msgid "Enter final number"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:68
+msgid "Color"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:69
+msgid "Select counter color using hex code, e.g. #fff"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:75
+#: ../inc/zilla-shortcodes/tinymce/config.php:203
+#: ../inc/zilla-shortcodes/tinymce/config.php:534
+msgid "Description"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:76
+msgid "Enter counter description"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:81
+#: ../inc/zilla-shortcodes/tinymce/config.php:189
+#: ../inc/zilla-shortcodes/tinymce/config.php:224
+#: ../inc/zilla-shortcodes/tinymce/config.php:244
+msgid "Fontawesome Icon Code"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:82
+#: ../inc/zilla-shortcodes/tinymce/config.php:190
+#: ../inc/zilla-shortcodes/tinymce/config.php:225
+#: ../inc/zilla-shortcodes/tinymce/config.php:245
+msgid ""
+"Enter a fornawesome icon code, e.g. \"fa-music\". See the cheatsheet <a href="
+"\"http://fortawesome.github.io/Font-Awesome/cheatsheet/\" target=blank>here."
+"</a>"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:86
+msgid "Insert Counter Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:105
+msgid "Insert Accented Text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:116
+msgid "Insert Bullet Points"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:125
+msgid "Bullet Point"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:129
+msgid "Add Bullet Point"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:139
+#: ../inc/zilla-shortcodes/tinymce/config.php:357
+msgid "Insert Social Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:147
+#: ../inc/zilla-shortcodes/tinymce/config.php:365
+#: ../inc/zilla-shortcodes/tinymce/config.php:546
+msgid "Social network"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:170
+#: ../inc/zilla-shortcodes/tinymce/config.php:388
+#: ../inc/zilla-shortcodes/tinymce/config.php:570
+msgid "Social Network URL"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:174
+#: ../inc/zilla-shortcodes/tinymce/config.php:392
+#: ../inc/zilla-shortcodes/tinymce/config.php:574
+msgid "Add Social Button"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:196
+#: ../inc/zilla-shortcodes/tinymce/config.php:414
+#: ../inc/zilla-shortcodes/tinymce/config.php:461
+msgid "Name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:197
+msgid "Enter service name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:204
+msgid "Enter service description"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:209
+msgid "Insert Service Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:230
+#: ../inc/zilla-shortcodes/tinymce/config.php:250
+msgid "Insert FontAwesome Icon"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:262
+#: ../inc/zilla-shortcodes/tinymce/config.php:654
+#: ../inc/zilla-shortcodes/tinymce/config.php:946
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:263
+msgid "Select section background color using hex code, e.g. #000000"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:270
+#: ../inc/zilla-shortcodes/tinymce/config.php:295
+msgid "Section Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:275
+msgid "Insert Colored Section Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:287
+msgid "Background Image Url"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:288
+msgid "Enter background image url (minimum 1600x500px size is recommended)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:300
+msgid "Insert BG Image Section Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:310
+#: ../inc/zilla-shortcodes/tinymce/config.php:334
+msgid "Insert Carousel Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:318
+#: ../inc/zilla-shortcodes/tinymce/config.php:342
+msgid "Insert Item Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:319
+#: ../inc/zilla-shortcodes/tinymce/config.php:343
+msgid "Insert content of the carousel item (text, image url etc.)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:323
+#: ../inc/zilla-shortcodes/tinymce/config.php:347
+msgid "Add Item"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:405
+msgid "Insert Testimonial Carousel Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:419
+#: ../inc/zilla-shortcodes/tinymce/config.php:467
+msgid "Company"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:424
+#: ../inc/zilla-shortcodes/tinymce/config.php:473
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:429
+#: ../inc/zilla-shortcodes/tinymce/config.php:479
+msgid "Font Color (eg. #ffffff)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:434
+#: ../inc/zilla-shortcodes/tinymce/config.php:483
+msgid "Number of start given"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:446
+msgid "Add Another Testimonial"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:495
+msgid "Insert Testimonial Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:511
+msgid "Member first name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:517
+msgid "Member last name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:522
+msgid "Member function"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:528
+msgid "Member photo url"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:540
+msgid "Insert Team Member Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:591
+msgid "Button URL"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:592
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:597
+msgid "Button Color"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:598
+msgid "Select the button's color using hex code, e.g. #000000"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:603
+msgid "Button Size"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:604
+msgid "Select the button's size"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:613
+msgid "Button Type"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:614
+msgid "Select the button's type"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:622
+msgid "Button Target"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:623
+msgid "_self = open in same window. _blank = open in new window"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:632
+msgid "Button's Text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:633
+msgid "Add the button's text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:637
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:655
+msgid "Select the alert's background color using hex code, e.g. #ffe6e3"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:660
+msgid "Border Color"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:661
+msgid "Select the alert's border color using hex code, e.g. #e9d477"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:666
+msgid "Alert Text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:667
+msgid "Add the alert's text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:672
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:684
+#: ../inc/zilla-shortcodes/tinymce/config.php:719
+#: ../inc/zilla-shortcodes/tinymce/config.php:754
+msgid "Toggle Content Title"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:685
+#: ../inc/zilla-shortcodes/tinymce/config.php:720
+#: ../inc/zilla-shortcodes/tinymce/config.php:755
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:691
+#: ../inc/zilla-shortcodes/tinymce/config.php:726
+#: ../inc/zilla-shortcodes/tinymce/config.php:761
+msgid "Toggle Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:692
+#: ../inc/zilla-shortcodes/tinymce/config.php:727
+#: ../inc/zilla-shortcodes/tinymce/config.php:762
+msgid "Add the toggle content. Will accept HTML"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:696
+#: ../inc/zilla-shortcodes/tinymce/config.php:731
+#: ../inc/zilla-shortcodes/tinymce/config.php:766
+msgid "Toggle State"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:697
+#: ../inc/zilla-shortcodes/tinymce/config.php:732
+#: ../inc/zilla-shortcodes/tinymce/config.php:767
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:706
+#: ../inc/zilla-shortcodes/tinymce/config.php:741
+#: ../inc/zilla-shortcodes/tinymce/config.php:776
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:789
+#: ../inc/zilla-shortcodes/tinymce/config.php:820
+#: ../inc/zilla-shortcodes/tinymce/config.php:852
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:796
+#: ../inc/zilla-shortcodes/tinymce/config.php:827
+#: ../inc/zilla-shortcodes/tinymce/config.php:859
+msgid "Tab Title"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:797
+#: ../inc/zilla-shortcodes/tinymce/config.php:828
+#: ../inc/zilla-shortcodes/tinymce/config.php:860
+msgid "Title of the tab"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:802
+#: ../inc/zilla-shortcodes/tinymce/config.php:833
+#: ../inc/zilla-shortcodes/tinymce/config.php:865
+msgid "Tab Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:803
+#: ../inc/zilla-shortcodes/tinymce/config.php:834
+#: ../inc/zilla-shortcodes/tinymce/config.php:866
+msgid "Add the tabs content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:807
+#: ../inc/zilla-shortcodes/tinymce/config.php:838
+#: ../inc/zilla-shortcodes/tinymce/config.php:870
+msgid "Add Tab"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:885
+msgid "Quote content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:891
+msgid "Quote source"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:896
+msgid "Add Quote"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:911
+#: ../inc/zilla-shortcodes/tinymce/config.php:939
+msgid "Skill name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:912
+#: ../inc/zilla-shortcodes/tinymce/config.php:940
+msgid "Enter the skill name"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:918
+#: ../inc/zilla-shortcodes/tinymce/config.php:961
+msgid "Percentage"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:919
+msgid "Set up % value"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:924
+msgid "Insert Skillbar Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:947
+msgid "Select skill background color using hex code, e.g. #000000"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:954
+msgid "Skill description (optional)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:955
+msgid "Enter skill description"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:962
+msgid "Set up % value (without % character)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:967
+msgid "Insert Circle Skillbar Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:977
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:985
+msgid "Column Type"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:986
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1011
+msgid "Column Content"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1012
+msgid "Add the column content."
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1016
+msgid "Add Column"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1030
+msgid "Thumb URL"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1031
+msgid "Enter thumb image url"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1037
+msgid "Image URL"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1038
+msgid "Enter full image url (optional)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1044
+msgid "Alttext"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1045
+msgid "Enter alt text / photo caption"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1050
+msgid "Insert Lightbox Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1063
+msgid "Video type"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1064
+msgid "Select video type"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1076
+msgid "Video ID"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1077
+msgid ""
+"Paste video ID (http://www.youtube.com/watch?v=<strong>nzY2Qcu5i2A</strong>)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1083
+msgid "Insert Video Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1094
+msgid "Insert Slider Shortcode"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1104
+msgid "Unique ID"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1105
+msgid "Unique ID / name of the slider [use the same ID for all slides]"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1110
+msgid "Slide Image"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1111
+msgid "Insert slide image URL"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1117
+msgid "Target Image"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1118
+msgid "Insert  full sized slide URL for lightbox display (optional)"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1124
+msgid "Alt Text"
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1125
+msgid "Alt text (optional)."
+msgstr ""
+
+#: ../inc/zilla-shortcodes/tinymce/config.php:1130
+msgid "Add Another Slide"
+msgstr ""
+
+#: ../portfolio.php:391 ../single-portfolio.php:61
+msgid "Client: "
+msgstr ""
+
+#: ../portfolio.php:394 ../single-portfolio.php:64
+msgid "Launch project"
+msgstr ""
+
+#: ../single.php:74
+msgid "No posts found"
+msgstr ""

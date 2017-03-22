@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.saveconfig">
+    <input 
+        name="allowedext"
+        type="text"
+        label="Allowed extensions"
+        value="7z,ace,bz2,dmg,gz,rar,tgz,zip,csv,doc,docx,html,key,keynote,odp,ods,odt,pages,pdf,pps,ppt,pptx,rtf,tex,txt,xls,xlsx,xml,bmp,exif,gif,ico,jpeg,jpg,png,psd,tif,tiff,aac,aif,aiff,alac,amr,au,cdda,flac,m3u,m4a,m4p,mid,mp3,mp4,mpa,ogg,pac,ra,wav,wma,3gp,asf,avi,flv,m4v,mkv,mov,mpeg,mpg,rm,swf,vob,wmv,css,img"
+        class="inputbox input-block-level"
+        required="true"
+    />    
+    <input 
+        name="maxinputfile"
+        type="maxinputfile"
+        label="Max upload file size (mo)"
+        value="10"
+        class="inputbox input-block-level"
+        required="true"
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />    
+    <input 
+        name="deletefiles"
+        type="select"
+        label="Delete all files on uninstall"
+        value="0"
+        class="inputbox input-block-level"
+        required="true"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="close_categories"
+            type="select"
+            label="Close Categories"
+            value="0"
+            class="inputbox input-block-level"
+            required="true"
+            >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input 
+        name="catparameters"
+        type="select"
+        label="Theme per categories"
+        value="1"
+        class="inputbox input-block-level"
+        required="true"
+    >        
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+        name="defaultthemepercategory"
+        type="select"
+        label="Default theme per category"
+        value="default"
+        class="inputbox input-block-level"
+        >
+        <option value="default">Default Theme</option>
+        <option value="ggd">Ggd Theme</option>
+        <option value="table">Table Theme</option>
+        <option value="tree">Tree Theme</option>
+    </input>
+
+    <input
+            name="date_format"
+            type="text"
+            label="Date format"
+            help="&lt;a href=&quot;https://codex.wordpress.org/Formatting_Date_and_Time&quot; target=&quot;__blank&quot;&gt;Date Format&lt;/a&gt;"
+            value="d-m-Y"
+            class="inputbox input-block-level"
+            required="true"
+            >
+    </input>
+
+    <input
+            name="show_file_import"
+            type="select"
+            label="Show files import"
+            value="0"
+            class="inputbox input-block-level"
+            required="true"
+            >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <button
+        type="submit"
+        value="Save"
+        class="button button-primary"
+    />
+
+</form>

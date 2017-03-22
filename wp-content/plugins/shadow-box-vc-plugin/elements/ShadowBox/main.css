@@ -1,0 +1,296 @@
+.am_shadowBox {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-bottom: 20px;
+  max-width: 100%;
+/*cf()*/
+/*overflow: hidden;*/
+}
+.am_shadowBox .wpb_text_column {
+  margin-bottom: 0px;
+}
+.am_shadowBox .wpb_content_element {
+  margin-bottom: 0px;
+}
+.am_shadowBox .wpb_single_image img {
+  float: initial !important;
+  padding-right: 0px !important;
+}
+.am_shadowBox > div {
+  max-width: 100%;
+/*cf()*/
+  display: inline-block;
+  background: #fff;
+}
+.am_shadowBox img.vc_box_border_grey {
+  box-shadow: none;
+  display: block;
+  border-radius: 0px;
+}
+.am_shadowBox.am_shadowBox-1 {
+  box-shadow: 0 10px 6px -6px rgba(0,0,0,0.2);
+}
+.am_shadowBox.am_shadowBox-1 > div {
+  display: block;
+}
+.am_shadowBox.am_shadowBox-1-big {
+  box-shadow: 0 10px 6px -2px rgba(0,0,0,0.4);
+}
+.am_shadowBox.am_shadowBox-1-big > div {
+  display: block;
+}
+.am_shadowBox.am_shadowBox-2 {
+  margin-bottom: 15px;
+}
+.am_shadowBox.am_shadowBox-2 > * {
+  min-height: 35px;
+  position: relative;
+}
+.am_shadowBox.am_shadowBox-2 > *:before,
+.am_shadowBox.am_shadowBox-2 > *:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 12px;
+  width: 50%;
+  height: 10px;
+  max-width: 350px;
+  background: transparent;
+  box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+.am_shadowBox.am_shadowBox-2 > *:before {
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  left: 10px;
+}
+.am_shadowBox.am_shadowBox-2 > *:after {
+  -webkit-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+          transform: rotate(3deg);
+  right: 10px;
+}
+.am_shadowBox.am_shadowBox-3 > * {
+  min-height: 35px;
+  position: relative;
+}
+.am_shadowBox.am_shadowBox-3 > *:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 12px;
+  left: 10px;
+  width: 50%;
+  height: 10px;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+.am_shadowBox.am_shadowBox-3-r > * {
+  min-height: 35px;
+  position: relative;
+}
+.am_shadowBox.am_shadowBox-3-r > *:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 12px;
+  right: 10px;
+  width: 50%;
+  height: 10px;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+.am_shadowBox.am_shadowBox-4 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-4 > *:before,
+.am_shadowBox.am_shadowBox-4 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px/10px;
+}
+.am_shadowBox.am_shadowBox-5 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-5 > *:before,
+.am_shadowBox.am_shadowBox-5 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px/10px;
+}
+.am_shadowBox.am_shadowBox-5 > *:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+      -ms-transform: skew(8deg) rotate(3deg);
+          transform: skew(8deg) rotate(3deg);
+}
+.am_shadowBox.am_shadowBox-6 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-6 > *:before,
+.am_shadowBox.am_shadowBox-6 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  border-radius: 100px/10px;
+}
+.am_shadowBox.am_shadowBox-6 > *:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+      -ms-transform: skew(8deg) rotate(3deg);
+          transform: skew(8deg) rotate(3deg);
+}
+.am_shadowBox.am_shadowBox-7 > * {
+  min-height: 35px;
+  position: relative;
+/*box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-8 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-8 > *:before,
+.am_shadowBox.am_shadowBox-8 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+}
+.am_shadowBox.am_shadowBox-8 > *:before {
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  border-radius: 10px/100px;
+}
+.am_shadowBox.am_shadowBox-9 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-9 > *:before,
+.am_shadowBox.am_shadowBox-9 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+}
+.am_shadowBox.am_shadowBox-9 > *:before {
+  top: 50%;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  border-radius: 100px/10px;
+}
+.am_shadowBox.am_shadowBox-10 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-10 > *:before,
+.am_shadowBox.am_shadowBox-10 > *:after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+}
+.am_shadowBox.am_shadowBox-10 > *:before {
+  left: 80px;
+  bottom: 5px;
+  width: 50%;
+  height: 20%;
+  max-width: 200px;
+  box-shadow: -80px 0 8px rgba(0,0,0,0.4);
+  -webkit-transform: skew(50deg);
+      -ms-transform: skew(50deg);
+          transform: skew(50deg);
+  -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+.am_shadowBox.am_shadowBox-10 > *:after {
+  display: none;
+}
+.am_shadowBox.am_shadowBox-11 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 20px -10px 10px 5px rgba(0,0,0,0.2);
+}
+.am_shadowBox.am_shadowBox-12 > * {
+  min-height: 35px;
+  position: relative;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250,250,250,0.5)));
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.6, #fff), color-stop(0.75, rgba(255,255,255,0)));
+  filter: progid:DXImageTransform.Microsoft.Gradient( gradientType=0, startColor=0, EndColorStr=#ffffff);
+}
+.am_shadowBox.am_shadowBox-13 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 6px 15px #575555 inset;
+}
+.am_shadowBox.am_shadowBox-19 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.am_shadowBox.am_shadowBox-18 > * {
+  min-height: 35px;
+  position: relative;
+  border: 10px dashed #ccc;
+  box-shadow: 0 0 0 1px #ccc, inset 0 0 0 1px #ccc;
+}
+.am_shadowBox.am_shadowBox-17 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 0 0 7px #60b88d, 0 0 0 14px #90cdaf, 0 0 0 21px #bfe3d1;
+}
+.am_shadowBox.am_shadowBox-16 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 6px 6px #989898, 12px 12px #6c6666;
+}
+.am_shadowBox.am_shadowBox-14 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 0 10px 5px #ddd;
+}
+.am_shadowBox.am_shadowBox-15 > * {
+  min-height: 35px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,110 @@
+/*
+Theme Name: bandaid
+*/
+
+/***********************************************************************************************************************************
+	Panel - General
+***********************************************************************************************************************************/
+
+/***********************************************************************************************************************************
+	Panel - Header
+***********************************************************************************************************************************/
+
+.platform-page #panel-header {
+  background: #e0e0e0;
+  /*padding: 50px 0;*/
+  padding: 0px 0 40px;
+  margin-bottom: 50px;
+}
+
+.platform-page #panel-header #left-column, .platform-page #panel-header #right-column {
+	margin-top: 50px;
+}
+
+.platform-page #panel-header #left-column .imc {
+  display: block;
+  font-weight: 600 !important;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.platform-page #panel-header #left-column .platform {
+  color: #0073b9;
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  font-weight: 600 !important;
+  margin-top: 10px;
+}
+
+.platform-page #panel-header img,
+.platform-page #panel-header h1 {
+  display: inline-block;
+}
+
+.platform-page #panel-header img {
+}
+
+.platform-page #panel-header h1 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.platform-page #panel-header h2 {
+  font-size: 18px;
+}
+
+
+/***********************************************************************************************************************************
+	Panel - 1
+***********************************************************************************************************************************/
+
+.platform-page #panel-1 {
+  margin-bottom: 50px;
+}
+
+/***********************************************************************************************************************************
+	Panel - 2
+***********************************************************************************************************************************/
+
+.platform-page #panel-2 {
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+.platform-page #panel-2 {
+  border-top: 1px solid lightgray;
+}
+
+.platform-page #icons {
+  margin-top: 30px;
+}
+
+.platform-page #icons img {
+  margin-bottom: 10px;
+}
+
+.platform-page #icons .steps {
+  font-size: 20px;
+}
+
+/***********************************************************************************************************************************
+	Panel - 3
+***********************************************************************************************************************************/
+
+.platform-page #panel-3 {
+  padding-top:40px;
+  padding-bottom: 40px;
+  border-top: 1px solid lightgray;
+}
+/*------------------------------responsive------------------------------------------*/
+@media (min-width: 768px) and (max-width:992px) {
+.sidebar-container {display: block;margin: 0 auto;text-align: center;}
+}
+@media (max-width: 767px) {
+.sidebar-container , #right-column .btn-outline-gray , #panel-1 img , #panel-2 img , .btn-outline-gray{display: block;margin: 0 auto 10px;text-align: center;}
+#panel-header #right-column > p ,.blue-heading , #cloud-store #main-content p{text-align: center;}
+#panel-header #left-column img {display: block;margin: 0 auto;}
+#panel-3 #icons img {display: block;margin: 0 auto 20px;}
+.platform-page #panel-header h1{display: block;text-align: center;}
+}

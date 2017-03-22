@@ -1,0 +1,13 @@
+.import-result{
+	padding:20px;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+.import-result:last-child{border:1px solid #ccc}
+.import-result pre{white-space: pre-wrap}
+
+.redirect-rule{
+	padding-bottom:4px; margin-bottom:4px;
+	border-bottom:1px dotted #ddd;
+}
+.redirect-rule:last-child{border:none}

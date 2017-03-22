@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;theme=table&amp;task=config.savethemeparams">
+    <input
+        name="table_styling"
+        type="select"
+        label="Stylize table"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <input
+        name="table_stylingmenu"
+        type="select"
+        label="Stylize menu"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showsize"
+        type="select"
+        label="Show weight"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showtitle"
+        type="select"
+        label="Show title"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showdescription"
+        type="select"
+        label="Show description"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showversion"
+        type="select"
+        label="Show version"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showhits"
+        type="select"
+        label="Show hits"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showdownload"
+        type="select"
+        label="Show download link"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <input
+            name="table_bgdownloadlink"
+            type="text"
+            label="Background download link"
+            value="#76bc58"
+            class="inputbox input-block-level wp-color-field"
+            />
+    <input
+            name="table_colordownloadlink"
+            type="text"
+            label="Color download link"
+            value="#ffffff"
+            class="inputbox input-block-level wp-color-field"
+            />
+
+    <input
+        name="table_showdateadd"
+        type="select"
+        label="Show date added"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showdatemodified"
+        type="select"
+        label="Show date modified"
+        value="0"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showsubcategories"
+        type="select"
+        label="Show subcategories"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showcategorytitle"
+        type="select"
+        label="Show category title"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <input
+        name="table_showbreadcrumb"
+        type="select"
+        label="Show Breadcrumb"
+        value="1"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    
+    <input
+        name="table_showfoldertree"
+        type="select"
+        label="Show folder tree"
+        value="0"
+        class="inline">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+    </input>
+    <button
+        type="submit"
+        value="Save"
+        class="button button-primary"
+    />
+
+</form>

@@ -1,0 +1,458 @@
+<?php
+
+if (!defined('ABSPATH')) exit;
+require_once(plugin_dir_path(__FILE__) . 'adbutler_tag_builder.class');
+/**
+ * Class adbutler_plugin
+ * Core object used for static functions and plugin initialization
+ */
+class adbutler_plugin
+{
+	/**
+	 * @var string plugin name used in options and widget creation
+	 */
+	protected $slug = 'adbutler_plugin';
+	/**
+	 * @var current singleton reference to this class
+	 */
+	protected static $instance = null;
+
+	/**
+	 * Class initialization
+	 */
+	public function __construct()
+	{
+
+	}
+
+	/**
+	 * Initialization function used to register hooks and other setup actions
+	 * @param null $args array of possible future arguments for class initialization
+	 */
+	public function init($args = null)
+	{
+		add_action('admin_menu', array($this, 'create_admin_menu'));
+		add_action('plugin_action_links', array($this, 'create_action_links'), 10, 2);
+		add_action('widgets_init', array($this, 'register_widget'));
+		add_action('admin_enqueue_scripts', array($this, 'enqueue_admin_scripts'));
+		add_action('siteorigin_panel_enqueue_admin_scripts', array($this, 'enqueue_admin_scripts'));
+		add_action('wp_dashboard_setup', array($this, 'dashboard_widget_register'));
+        add_action('add_meta_boxes', array($this, 'abkw_targeting') );
+        add_action( 'save_post', array($this, 'abkw_targeting_save') );
+        add_action( 'wp_head', array($this,'abkw_post_insertion') );
+		add_shortcode('adbutler', array($this, 'adbutler_shortcode'));
+
+	}
+
+    /**
+     * Insert the keyword script into the page when there is a keyword associated post
+     * 
+     */
+    public function abkw_post_insertion() {        
+        $keyword = get_post_meta(get_the_ID(), 'abkw-text', true);
+        if (!empty($keyword)) {
+            php?>
+            <script>
+                window.abkw = '<?php echo $keyword;?>';
+            </script>
+        <?php
+        }
+    }
+    
+    /**
+     * Loads the AdButler Keyword component to post pages
+     */
+    public function abkw_targeting() {
+        add_meta_box( 'abkw_targeting', __( 'AdButler Keyword', 'prfx-textdomain' ), array($this, 'add_abkw_topage'), 'post' );
+    }
+
+    /**
+     * keyword form for a given post
+     * @param $post
+     */
+    public function add_abkw_topage($post){
+
+        $abkw_stored_meta = get_post_meta( $post->ID );
+        ?>
+
+        <p>
+            <label for="abkw-text"  class="abkw-row-title"><?php _e( 'Enter a keyword to associate with this post.', 'abkw-textdomain' )?></label>
+            <input type="text" placeholder="keyword targeting" width="200px"  title="Separate with a comma or space for multiple keywords" name="abkw-text" id="abkw-text" value="<?php if ( isset ( $abkw_stored_meta['abkw-text'] ) ) echo $abkw_stored_meta['abkw-text'][0]; ?>" />
+        </p>
+
+    <?php
+    }
+	
+	public function adbutler_shortcode($atts){
+
+		$a = shortcode_atts( array(
+			'name' => 'shortcode',
+			'zone_id' => 0,
+			'type' => 'asyncjs',
+			'secure'=> is_ssl(),
+			'size' => '300x250',
+			'adbutler_id' => get_option('adbutler_id'),
+			'host_name' => get_option('adbutler_host_name'),
+			'ssl_host_name' => get_option('adbutler_ssl_host_name'),
+		), $atts );
+		
+		if (is_numeric($a['zone_id']) && $a['zone_id'] != 0) {
+			return $this->build_ad_tag($a);
+		}
+	}
+	
+	
+	
+	
+
+    /**
+     * Saves the custom keyword for a given post
+     */
+    public function abkw_targeting_save( $post_id ) {
+
+        // Checks save status
+        $is_autosave = wp_is_post_autosave( $post_id );
+        $is_revision = wp_is_post_revision( $post_id );
+         // Exits script depending on save status
+        if ( $is_autosave || $is_revision  ) {
+            return;
+        }
+
+        // Checks for input and sanitizes/saves if needed
+        if( isset( $_POST[ 'abkw-text' ] ) ) {
+            update_post_meta( $post_id, 'abkw-text', sanitize_text_field( $_POST[ 'abkw-text' ] ) );
+        }
+
+    }
+
+	/**
+	 * Loads the javascript and style sheets to the relevant admin pages
+	 * @param $hook current page
+	 */
+	public function enqueue_admin_scripts($hook)
+	{
+		
+		wp_enqueue_script('adbutler_script', ADBUTLER_URLPATH . "js/adbutler.js", array('jquery-ui-button', 'jquery', 'jquery-ui-spinner'), '1.05', true);
+		$params = array(
+			'widgetID' => 'adbutler',
+			'api_url' => ADBUTLER_ADSERVE_URL,
+			'adbutler_key' => get_option('adbutler_key'),
+		);
+		
+		wp_localize_script('adbutler_script', 'adbutlerParams', $params);
+		wp_enqueue_style('adbutler_css', ADBUTLER_URLPATH . 'css/adbutler.css?ver=1.12');
+	}
+
+	/**
+	 * Creates or retrieves the current instance of the AdButler plugin
+	 * @return adbutler_plugin|current|null
+	 */
+	public static function get_instance()
+	{
+		// Singleton constructor 
+		if (self::$instance == null) {
+			self::$instance = new self;
+		}
+		return self::$instance;
+	}
+
+	/**
+	 * Plugin activation
+	 */
+	public static function activate()
+	{
+		if (!current_user_can('activate_plugins'))
+			return;
+	}
+
+	/**
+	 * Plugin Deactivation
+	 */
+	public static function deactivate()
+	{
+		if (!current_user_can('activate_plugins'))
+			return;
+		delete_option('widget_adbutler');
+	}
+
+	/**
+	 * Plugin Uninstall
+	 */
+	public function uninstall()
+	{
+		if (!current_user_can('activate_plugins'))
+			return;
+		delete_option('widget_adbutler');
+		adbutler_plugin::clear_api_key();
+	}
+
+	/**
+	 * Creation of the administrative menu for Adbutler.
+	 */
+	public function create_admin_menu()
+	{
+		add_menu_page('AdButler', 'AdButler', 'manage_options', $this->slug, array($this, 'admin_menu_page_settings'), plugins_url('../images/adbutler_icon_20.png', __FILE__));
+		add_submenu_page($this->slug, 'AdButler Settings', 'Settings', 'manage_options', $this->slug, array($this, 'admin_menu_page_settings'));
+		add_submenu_page($this->slug, 'About AdButler', 'About', 'manage_options', $this->slug . '_about', array($this, 'admin_menu_page_about'));
+		//add_options_page('AdButler', 'AdButler', 'manage_options', $this->slug, array($this, 'admin_menu_page'));
+	}
+
+	/**
+	 * This function creates the settings menu link on the plugin page and shifts in on to the stack of links
+	 * @param $links current links
+	 * @param $file Adbutler Plugin file
+	 * @return mixed
+	 */
+	public function create_action_links($links, $file)
+	{
+		static $this_plugin;
+		if (!$this_plugin) {
+			$this_plugin = ADBUTLER_PLUGINBASE;
+		}
+		if ($file == $this_plugin) {
+			$settings_link = '<a href="' . site_url() . '/wp-admin/admin.php?page=adbutler_plugin">Settings</a>';
+			array_push($links, $settings_link);
+		}
+		return $links;
+	}
+
+	/**
+	 * hook used to register our widget
+	 */
+	public function register_widget()
+	{
+		include_once(plugin_dir_path(__FILE__) . 'adbutler_widget.class');
+		register_widget('adbutler_widget');
+	}
+
+	/**
+	 * Registar out dashboard widget
+	 */
+	public function dashboard_widget_register()
+	{
+		wp_add_dashboard_widget('adbutler_dashboard_summary', 'AdButler Summary', array($this, 'dashboard_summary'), array($this, 'dashboard_config'));
+	}
+
+	/**
+	 * Administrative page - About
+	 */
+	public function admin_menu_page_about()
+	{
+		if (!current_user_can('manage_options'))
+			wp_die('insufficient privileges!');
+		include_once(plugin_dir_path(__FILE__) . 'adbutler_admin_about.class');
+		$main_admin_page = new adbutler_admin_about();
+		$main_admin_page->build_page();
+		$main_admin_page->render();
+	}
+
+	/**
+	 * Administrative page - Settings
+	 */
+	public function admin_menu_page_settings()
+	{
+		if (!current_user_can('manage_options'))
+			wp_die('insufficient privileges!');
+
+		include_once(plugin_dir_path(__FILE__) . 'adbutler_admin_settings.class');
+		$main_admin_page = new adbutler_admin_settings();
+		$main_admin_page->build_page();
+		$main_admin_page->render();
+	}
+
+	/**
+	 * Makes a HTTP request to the Adbutler server to see if the API key is correct
+	 * @param $key submitted Adbutler API Key
+	 * @return bool success or failure on key validation
+	 */
+	public static function validate_adbutler_key($key)
+	{		
+		if (!class_exists('WP_Http'))
+			include_once(ABSPATH . WPINC . '/class-http.php');
+		$request = new WP_Http;
+		$result = $request->request(ADBUTLER_ADSERVE_URL . '?action=host&form=json&key=' . $key);
+        if ( is_wp_error($result) ) {
+            echo "The following error occurred " . $result->get_error_message();
+            return false;
+        }
+		$account = json_decode($result['body'], true);
+		if (!isset($account['success']))
+			return false;
+		$account_data = $account['success'];
+		if (is_null($account_data)) {
+			return false;
+		} elseif (isset($account_data['error'])) {
+			return false;
+		} elseif (array_key_exists('adbutler_id', $account_data)) {
+			update_option('adbutler_id', $account_data['adbutler_id']);
+			update_option('adbutler_host_name', $account_data['adbutler_host_name']);
+			update_option('adbutler_ssl_host_name', $account_data['adbutler_ssl_host_name']);
+			return true;
+		} else return false;
+	}
+
+	/**
+	 * removes all key and server details from the database.
+	 */
+	public static function clear_api_key()
+	{
+		delete_option('adbutler_key');
+		delete_option('adbutler_id');
+		delete_option('adbutler_host_name');
+		delete_option('adbutler_ssl_host_name');
+	}
+
+	/**
+	 * Configuration hook for dashboard widget
+	 */
+	public function dashboard_config()
+	{
+		if (isset($_POST['adbutler_key'])) {
+			$adbutler_key =  sanitize_text_field($_POST['adbutler_key']);
+			update_option('adbutler_key', $adbutler_key);
+		}
+		$adbutler_key = get_option('adbutler_key');
+		?>
+		<label for="adbutler_key">AdButler Key<input type="password" name="adbutler_key" id="adbutler-key-input"
+		                                             value="<?php echo esc_url($adbutler_key); ?>" size="75"/></label>
+	<?php
+	}
+
+	/**
+	 * Display all the AdButler dashboard widgets eventually...for now just config
+	 */
+	public function dashboard_summary()
+	{
+		include_once(plugin_dir_path(__FILE__) . 'adbutler_admin_dashboard.class');
+		$dashboard_widget = new adbutler_admin_dashboard();
+		$dashboard_widget->render();
+
+	}
+
+	/**
+	 * Static function used to display the api key dashboard widget
+	 */
+	public static function render_api_dashboard_widget()
+	{
+		?><div id="adbutler_key"><h4> Enter AdButler Key Here</h4>
+		<?php
+		if (isset($_POST['adbutler_key'])) {
+			check_admin_referer('spark_permission_check', 'nonce_check');
+			$key = $_POST['adbutler_key'];
+			if (adbutler_plugin::validate_adbutler_key($key)) {
+				update_option('adbutler_key', $key);
+				echo "<strong style=\"color:darkgreen\">The key was validated</strong>";
+			} else {
+				echo "<strong style=\"color:red\">The key was invalid</strong>";
+			}
+
+		}
+		if (isset($_POST['clear'])) {
+			check_admin_referer('spark_permission_check', 'nonce_check');
+			adbutler_plugin::clear_api_key();
+		}
+
+		if (isset($_POST['refresh'])) {
+			check_admin_referer('spark_permission_check', 'nonce_check');
+			$adbutler_key = get_option('adbutler_key');
+			if (adbutler_plugin::validate_adbutler_key($adbutler_key)) {
+				echo "<strong style=\"color:darkgreen\">The configuration was refreshed susccesfully</strong>";
+			} else {
+				echo "<strong style=\"color:red\">The configuration refresh failed. Please enter a new key</strong>";
+			}
+		}
+
+		$adbutler_key = get_option('adbutler_id');
+		echo '<div  id="key-form"><form method="post" target="_self">';
+		wp_nonce_field('spark_permission_check', 'nonce_check');
+		if ($adbutler_key) {
+			adbutler_plugin::clear_key_form();
+		} else {
+			adbutler_plugin::enter_new_key();
+		}
+		echo '</form></div></div>';
+	}
+
+	/**
+	 * Displays the form required to enter a new API key
+	 */
+	public static function enter_new_key()
+	{
+		?>
+		<p class="adbutler-left">			
+			<input type="text" name="adbutler_key"
+			       id="adbutler-key-input"
+			       size="50"
+			       title="Please enter the API key located in the settings page of your Adbutler account"/>
+		</p>
+		<button class="button-primary" type=submit>Save</button>
+	<?php
+	}
+
+	/**
+	 * Displays the form used to clear the current API key
+	 */
+	public static function clear_key_form()
+	{
+		?>
+		<p>A key has been configured with this account.</p>
+		<button class="button-primary" name="clear" type=submit>Clear Key</button>
+		<button class="button-primary" name="refresh" type=submit>Refresh</button>
+	<?php
+	}
+
+	/**
+	 * @param $def Array of all the required parameters to build an ad tag
+	 * @return string Ad tag for public display on site.
+	 */
+	public function build_ad_tag($def)
+	{
+		$name = $def['name'];
+		$type = $def['type'];
+		$output = array();
+		$output[] = "<!-- $name [$type] -->\n";
+		switch ($type) //Javascript, 'Ifrane', 'Image','Popup'
+		{
+			case 'asyncjs':
+			{
+				$output[] = adbutler_tag_builder::buildAsyncTags($def);
+				break;
+			}
+			case 'js':
+			{
+				$output[] = adbutler_tag_builder::buildJavascriptTags($def);
+				break;
+			}
+			case 'iframe':
+			{
+				$output[] = adbutler_tag_builder::buildIframeTags($def);
+				break;
+			}
+			case 'if_html':
+			{
+				$output[] = adbutler_tag_builder::buildHTMLIframeTags($def);
+				break;
+			}
+			case 'img':
+			{
+				$output[] = adbutler_tag_builder::buildImageTags($def);
+				break;
+			}
+			case 'popup':
+			{
+				$output[] = adbutler_tag_builder::buildPopupTags($def);
+				break;
+			}
+			default:
+				{
+				}
+		}
+		$markup = implode("", $output);
+		return $markup;
+	}
+}
+
+
+
+
+

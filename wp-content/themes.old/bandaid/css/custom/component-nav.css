@@ -1,0 +1,110 @@
+/*
+Theme Name: bandaid
+*/
+
+/***********************************************************************************************************************************
+	General
+***********************************************************************************************************************************/
+
+nav .ubermenu-content-block a {
+  color: #333;
+}
+
+nav .ubermenu-content-block a:hover {
+  color: #2375bb;
+  text-decoration: none;
+}
+
+nav .icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav .icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+nav .icon svg .cls-1 {
+  fill: #333
+}
+
+nav #solutions-title {
+  text-transform: uppercase;
+  color: #2375bb;
+  font-size: 26px;
+  padding: 10px;
+  font-weight: 400 !important;
+}
+
+nav #cloud-services #title, nav #platforms #title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+nav #cloud-services #subtitle, nav #platforms #subtitle {
+  font-size: 14px;
+}
+
+nav #cloud-services #title, nav#cloud-services #subtitle, nav #platforms #title, nav #platforms #subtitle {
+  color: #333;
+}
+
+nav #menu-description {
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+nav #cloud-services-title, nav #cloud-services-platforms-title {
+  color: #2375bb;
+  font-size: 20px;
+  font-weight: 400 !important;
+  line-height: 100%;
+}
+
+nav .category-name {
+  display: table-cell;
+  font-size: 16px;
+  height: 40px;
+  margin: 5px 0 0 !important;
+  vertical-align: middle;
+}
+
+nav .category-description {
+  font-size: 14px;
+  margin: 5px 20px;
+  height: 60px;
+}
+
+nav .no-left-padding {
+  padding-left: 0;
+}
+
+nav #menu-item-282 {
+  margin-top: 23px;
+}
+
+nav #saas-title, nav #software-licensing-title {
+  font-size: 26px;
+  color: #333;
+}
+
+nav #software-licensing-title {
+  margin-top: 50px;
+}
+/* nav middle align*/
+.child {
+  height: 60px;
+  border: 1px solid green;
+  position: relative;
+}
+.child-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.service-platform br {
+    display: none;
+}

@@ -1,0 +1,61 @@
+/**
+ * Style for AdPlugg in the administrator.
+ * @package AdPlugg
+ * @since 1.1
+ */
+
+/* Widget */
+fieldset.adplugg-widget-fieldset {
+    padding: 4px 6px 6px 6px;
+    border: solid 1px #e5e5e5;
+    margin: 1em 0 1em 0;
+}
+fieldset.adplugg-widget-fieldset legend {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset.adplugg-widget-fieldset input[type='checkbox'] {
+    -webkit-appearance: button;
+}
+
+
+/* Notices */
+.adplugg-notice button {
+    background-color: #fafafa;
+    color: #666;
+    border-radius: 2px;
+    margin-right: 8px;
+    padding: 2px 8px;
+    border: none;
+    box-shadow: none;
+    
+}
+.adplugg-notice button:hover {
+    background-color: #e0e0e0;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Video Tiles */
+.adplugg-videos {
+    margin: 0 0 1em 3em;
+    overflow: hidden;
+}
+.adplugg-video-tile {
+    width: 180px;
+    float: left;
+    margin: 0 1em 1em 0;
+    text-align: center;
+}
+.adplugg-video-tile figurecaption{ font-weight: bold;}
+.adplugg-video-tile h2 {height: 2em;}
+.adplugg-video-tile figure { margin: 0;}
+
+/* FBIA */
+.adplugg-fbia-only {display: none;}
+#facebook_ia_header_ads .adplugg-fbia-only {display: initial}
+legend.adplugg_widget_legend {display: none;}
+#facebook_ia_header_ads legend.adplugg_widget_optional_legend {display: none;}
+#facebook_ia_header_ads legend.adplugg_widget_legend {display: block;}

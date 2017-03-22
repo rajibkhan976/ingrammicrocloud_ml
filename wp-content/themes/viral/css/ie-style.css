@@ -1,0 +1,14 @@
+/* -----------------------------------------
+   Item: Social Sprites
+   Note: IE Conditional
+----------------------------------------- */
+
+.socialbar { margin: 0; }
+
+ul.ss { margin: 0; padding: 0; }
+ul.ss li { margin: 0; }
+
+.header {
+	height: 100%;
+}
+html {overflow-x: auto;}

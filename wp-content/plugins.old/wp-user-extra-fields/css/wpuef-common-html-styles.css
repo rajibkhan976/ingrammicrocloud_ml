@@ -1,0 +1,17 @@
+.wpuef_label.wpuef_required:after { content:" *";  color:red;}
+
+woocommerce form .form-row select, .woocommerce-page form .form-row select.picker__select--year
+{
+	width:35%;
+	padding: 0;
+}
+woocommerce form .form-row select, .woocommerce-page form .form-row select.picker__select--month
+{
+	width:25%;
+	padding: 0;
+}
+.wpuef_field_row
+{
+	display:block;
+	clear:both;
+}

@@ -1,0 +1,303 @@
+/*******************************************************************************
+General
+*******************************************************************************/
+.upper-nav-bar, .nav-bar.sticky, .footer-widgetized-section, .footer-section {
+  display: none !important;
+}
+
+h4 {
+  color: #555;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.col-md-12 {
+  width: 94% !important;
+}
+
+/*******************************************************************************
+Panel 1
+*******************************************************************************/
+
+#panel1 {
+  position: relative;
+  z-index: 1;
+  height: 270px;
+}
+
+#panel1 .bg {
+  background: url('/us/wp-content/uploads/sites/2/2016/07/skyline.png');
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3;
+  width: 100%;
+  height: 100%;
+}
+
+#panel1 .row {
+  margin-top: 50px;
+}
+
+#panel1 .logo, #panel1 .tagline {
+  color: #3178B9;
+}
+
+#panel1 .logo {
+  font-size: 50px;
+}
+
+#panel1 .tagline {
+  font-size: 30px;
+}
+
+#panel1 .badge1,
+#panel1 .badge2 {
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#panel1 .badge1 {
+  background-color: #D69329;
+}
+
+#panel1 .badge2 {
+  background-color: #777777;
+}
+
+
+/*******************************************************************************
+Panel 2
+*******************************************************************************/
+
+#panel2 {
+  background-color: #00AEEF;
+}
+
+#panel2 h5,
+#panel2 p,
+#panel2 div {
+  color: #fff;
+}
+
+#panel2 .left-column {
+  margin-top: 15px;
+}
+
+#panel2 .left-column h5 {
+  font-size: 28px;
+  line-height: 100%;
+  margin-bottom: 10px;
+  margin-top: 14px;
+}
+
+#panel2 .left-column p {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 130% !important;
+}
+
+#panel2 .right-column {
+  background-color: #0081CE;
+  padding: 20px 20px 10px;
+  float: right;
+}
+
+#panel2 .right-column h6 {
+  /*font-size: 20px;*/
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#panel2 .right-column .winner {
+  /*font-size: 47px;*/
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#panel2 .right-column .award {
+  background-color: #183577;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  #panel2 .right-column h6 {
+    font-size: 19px;
+  }
+  #panel2 .right-column .winner {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 959px) {
+  #panel2 .left-column h5 {
+    font-size: 24px;
+  }
+  #panel2 .left-column p {
+    font-size: 16px;
+  }
+  #panel2 .right-column h6 {
+    font-size: 16px;
+  }
+  #panel2 .right-column .winner {
+    font-size: 36px;
+  }
+  #panel2 .right-column .award {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #panel2 .left-column {
+    margin: 20px 0;
+  }
+  #panel2 .right-column {
+    float: left;
+  }
+  #panel2 .right-column .award {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  #panel2 .right-column {
+    margin-left: -20px;
+  }
+}
+
+
+/*******************************************************************************
+Panel 3
+*******************************************************************************/
+
+#panel3 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#panel3 .row {
+  margin-bottom: 5px;
+}
+
+#panel3 .row.text-center {
+  margin: 20px 0;
+}
+
+#panel3 h3,
+#panel3 button {
+  display: inline-block;
+}
+
+#panel3 button {
+  background-color: #D69329;
+  color: #fff;
+  border-radius: 0px;
+}
+
+#panel3 button {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+#panel3 .left-column {
+  padding-right: 2px;
+}
+
+#panel3 .right-column {
+  padding-left: 2px;
+}
+
+#panel3 .left-column .col-md-12.text-center, #panel3 .right-column .col-md-12.text-center {
+  background-color: #d3d3d3;
+}
+
+#panel3 .row2 .btn {
+  width: 100px;
+}
+
+#panel3 .left-column .col-md-12, #panel3 .right-column .col-md-12 {
+  background-color: #eee;
+  padding: 20px;
+}
+
+#panel3 .left-column .col-md-12 {
+  border-right: 4px solid white;
+}
+
+#panel3 .right-column .col-md-12 {
+  border-left: 4px solid white;
+}
+
+#panel3 .row3 .left-column .col-md-12, #panel3 .row3 .right-column .col-md-12 {
+  min-height: 130px;
+}
+
+#panel3 .row4 .left-column .col-md-12, #panel3 .row4 .right-column .col-md-12 {
+  min-height: 260px;
+}
+
+#panel3 .row5 .left-column .col-md-12, #panel3 .row5 .right-column .col-md-12 {
+  min-height: 690px;
+}
+
+#panel3 .vs {
+  position: absolute;
+  background-color: #111;
+  color: #fff;
+  border: 4px solid #fff;
+  z-index: 1;
+  left: 47%;
+  top: 8%;
+  border-radius: 20px;
+  padding: 5px 8px;
+}
+
+#panel3 li {
+  margin: 10px 0;
+}

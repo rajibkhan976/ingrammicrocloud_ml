@@ -1,0 +1,126 @@
+/*
+Theme Name: bandaid
+*/
+
+/***********************************************************************************************************************************
+        General
+***********************************************************************************************************************************/
+nav .ubermenu-content-block a {
+    color: #333;
+}
+nav .ubermenu-content-block a:hover {
+    color: #2375bb;
+    text-decoration: none;
+}
+
+nav .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav .icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+nav .icon svg .cls-1 {
+    fill: #333
+}
+
+nav #solutions-title {
+    text-transform: uppercase;
+    color: #2375bb;
+    font-size: 26px;
+    padding: 10px;
+    font-weight: 400 !important;
+}
+
+nav #cloud-services #title, nav #platforms #title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+nav #cloud-services #subtitle, nav #platforms #subtitle {
+    font-size: 14px;
+}
+
+nav #cloud-services #title, nav#cloud-services #subtitle, nav #platforms #title, nav #platforms #subtitle {
+    color: #333;
+}
+
+nav #menu-description {
+    font-size: 13px;
+    margin:10px 0 -10px;
+}
+.ubermenu-content-block {
+    padding: 5px 0 0 25px !important;
+}
+nav #cloud-services-title, nav #cloud-services-platforms-title {
+    color: #2375bb;
+    font-size: 20px;
+    font-weight: 400 !important;
+    line-height: 100%;
+}
+
+nav .category-name {
+    display: table-cell;
+    font-size: 13px;
+    height: 40px;
+    margin: 5px 0 0 !important;
+    vertical-align: middle;
+}
+
+nav .category-description {
+    font-size: 12px;
+    height:60px;
+    overflow-wrap: break-word;
+    color: #888888;
+}
+.ubermenu-submenu .adplugg-ad img,.ubermenu-submenu .adplugg-ad object,.ubermenu-submenu .adplugg-ad embed {
+    margin-right: -40px;
+}
+nav .no-left-padding {
+    padding-left: 0;
+}
+
+nav #saas-title, nav #software-licensing-title {
+    font-size: 20px;
+    color:#555555;
+    margin:8px 0;
+    font-family: "Gotham SSm A","Gotham SSm B","Open Sans",sans-serif;
+}
+/*.ubermenu-submenu.ubermenu-submenu-type-mega.ubermenu-submenu-drop*/
+.ubermenu-submenu-id-223,.ubermenu-submenu-id-319,.ubermenu-submenu-id-14008,.ubermenu-submenu-id-14809 {
+    float: none;
+    left: 0 !important;
+    margin: 0 auto !important;
+    max-width: 1024px;
+    right: 0 !important;
+    text-align: center !important;
+    max-height:490px !important;
+}
+.category-description.bznz {
+    margin-bottom: 28px;
+}
+/* nav middle align*/
+.child {
+    height: 60px;
+    border: 1px solid green;
+    position: relative;
+}
+.child-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.service-platform br {
+    display: none;
+}
+#right-bar-top .social .fa.fa-linkedin:hover{  color: #0077b5;}
+#right-bar-top .social .fa.fa-twitter:hover{  color: #1da1f2;}
+#right-bar-top .social .fa.fa-facebook:hover{  color: #425f9c;}
+#right-bar-top .social .fa.fa-youtube:hover{  color: #c4302b;}
+#right-bar-top .social .fa.fa-google-plus:hover{  color: #d34836;}
+#right-bar-top .social .fa.fa-instagram:hover{  color: #262626;}

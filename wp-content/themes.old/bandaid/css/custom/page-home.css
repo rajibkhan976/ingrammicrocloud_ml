@@ -1,0 +1,534 @@
+/*
+Theme Name: bandaid
+*/
+
+/***********************************************************************************************************************************
+	Panel - Hero
+***********************************************************************************************************************************/
+
+#home #panel-hero img {
+	width: 100%;
+}
+
+
+/***********************************************************************************************************************************
+	Panel - Promotions
+***********************************************************************************************************************************/
+
+#home #panel-promotions {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#home #panel-promotions .slick-list {
+	margin-left: 40px;
+}
+
+#home #panel-promotions .slick-track .slick-slide img {
+	transform: scale(.9);
+	transition: all 0.3s ease;
+}
+
+#home #panel-promotions .slick-track .slick-center img {
+	transform: scale(1);
+	transition: all 0.3s ease;
+}
+
+#home #panel-promotions .slick-dots .slick-active {
+	border-bottom: 3px solid #3476b9;
+	height: 50px;
+}
+
+#home #panel-promotions .slick-dots {
+	margin-bottom: 75px;
+	position: relative;
+}
+
+#home #panel-promotions .slick-dots li {
+	width: 50px;
+}
+
+#home #panel-promotions .slick-dots li a img {
+	width: 50px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+#home #panel-promotions .slick-prev,
+#home #panel-promotions .slick-next {
+	top: 30%;
+}
+
+@media (max-width: 1200px) {
+	#home #panel-promotions .slick-track .slick-slide img {
+		transform: scale(.75);
+	}
+	#home #panel-promotions .slick-track .slick-center img {
+		transform: scale(.85);
+	}
+}
+
+@media (max-width: 991px) {
+	#home #panel-promotions .slick-track .slick-slide img {
+		transform: scale(.6);
+	}
+}
+
+
+/***********************************************************************************************************************************
+	Panel - Cloud Services
+***********************************************************************************************************************************/
+
+#home #panel-cloud-services {
+	background: linear-gradient(#435a67, #444b50);
+	color: #fff;
+	padding: 50px 0;
+}
+
+#home #panel-cloud-services h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#home #panel-cloud-services h3 {
+    text-align: center;
+    font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#home #panel-cloud-services #category-description p {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#home #panel-cloud-services #category-list .icon {
+	height: 70px;
+}
+
+#home #panel-cloud-services #category-list .icon svg {
+	max-height: 70px;
+    width: 70px;
+
+}
+#home #panel-cloud-services #category-solutions .slick-track {
+	margin: auto;
+}
+
+#home #panel-cloud-services .solution {
+	margin: 0 7px;
+}
+
+#home #panel-cloud-services .solution .logo {
+	padding: 20px;
+}
+
+#home #panel-cloud-services .solution .logo img {
+	max-height: 30px;
+	margin: auto;
+}
+
+#home #panel-cloud-services .solution .solution-container {
+	background-color: #fff;
+	min-height: 165px;
+}
+
+#home #panel-cloud-services .solution .solution-container, #home #panel-cloud-services .solution .solution-container .bottom-half, #home #panel-cloud-services .category {
+	border-radius: 3px;
+}
+
+#home #panel-cloud-services #category-description {
+	margin: 20px 0;
+}
+
+#home #panel-cloud-services .category .name {
+	margin-top: 10px;
+	line-height: 120%;
+	font-size: 16px;
+}
+
+#home #panel-cloud-services #cta-section {
+	padding-top: 30px;
+}
+
+#home #panel-cloud-services #cta-section p {
+	display: inline-block;
+	margin-left: 40px;
+	vertial-align: top;
+}
+
+#home #panel-cloud-services #cta-section a, #home #panel-cloud-services #cta-section a:focus {
+	color: #fff;
+}
+
+#home #panel-cloud-services #cta-section .btn {
+	min-height: 55px;
+}
+
+@media (min-width: 1200px) {
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1 {
+		width: 14%;
+		*width: 14%;
+	}
+}
+
+
+/* 14% = 100% (full-width row) divided by 7 */
+
+
+/***********************************************************************************************************************************
+	Panel - Solution Showcase
+***********************************************************************************************************************************/
+
+#home #panel-cloud-services .solution-showcase {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#home #panel-cloud-services .category {
+	padding: 20px 10px;
+	height: 150px;
+	opacity: .75;
+	transition: opacity 0.3s ease;
+	width: 165px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#home #panel-cloud-services .category:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#home #panel-cloud-services .selected-category {
+	border-bottom: 3px solid #51b5fc;
+	background: rgba(0, 0, 0, .1);
+	transition: all 0.1s ease;
+	opacity: 1;
+}
+
+#home #panel-cloud-services .solution .top-half {
+	height: 55px;
+}
+
+#home #panel-cloud-services .solution .bottom-half {
+	height: 110px;
+}
+
+#home #panel-cloud-services .solution a:focus {
+	outline: none;
+}
+
+#home #panel-cloud-services .solution a {
+	color: #222;
+}
+
+#home #panel-cloud-services .solution a:hover {
+	text-decoration: none;
+}
+
+#home #panel-cloud-services .solution .vendor {
+	padding: 15px 10px 0;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+#home #panel-cloud-services .solution .title {
+	line-height: 120%;
+	padding: 0 10px;
+}
+
+#home #panel-cloud-services #cta-section #see-all {
+	max-width: 275px;
+  width: 100%;
+	white-space: normal;
+}
+
+#home #panel-cloud-services #cta-section #more-information {
+	height: 62px;
+	white-space: normal;
+}
+
+#home #panel-delivery-models #marketplace-icon-container .icon {
+  background: #999a9a;
+  padding: 15px 0px 15px;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin:0 auto;
+  line-height: 45px;
+  border: 5px solid #999a9a;
+}
+
+#home #panel-delivery-models #marketplace-icon-container .icon svg {
+	width: 35px;
+	vertical-align: middle;
+}
+
+#home #panel-delivery-models #marketplace-icon-container #oae-icon svg { 
+	width:25px !important;
+	
+}
+
+#home #panel-delivery-models #marketplace-icon-container .icon .icon-name {
+	color: #fff;
+  font-size: 11px;
+  margin-top: 5px;
+  line-height: 12px;
+}
+.delivery-model-current.delivery-model-saas-active .icon-name, .delivery-model-current.delivery-model-software-licensing-active .icon-name {
+	font-size: 9px !important;
+  line-height: 9px !important;
+}
+
+
+/***********************************************************************************************************************************
+	Panel - Panel Delivery Models
+***********************************************************************************************************************************/
+
+#home #panel-delivery-models {
+	background: linear-gradient(#fff, #a1cef5);
+	padding: 50px 0 80px;
+}
+
+#home #panel-delivery-models h2 {
+	font-size: 40px;
+}
+
+#home #panel-delivery-models h3 {
+	font-size: 20px;
+}
+
+#home #panel-delivery-models #content #legend-top {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+#home #panel-delivery-models #content #legend-top #saas:hover, #home #panel-delivery-models #content #legend-top #software-licensing:hover {
+	cursor: pointer;
+}
+
+#home #panel-delivery-models #content #legend-top #saas i {
+  color: #2F73B8;
+}
+
+#home #panel-delivery-models #content #legend-top #software-licensing i {
+  color: #EF6430;
+}
+
+#home #panel-delivery-models #content #legend-top p:first-child {
+	margin-right: 40px;
+}
+
+#home #panel-delivery-models #content #legend-top p {
+	display: inline-block;
+}
+
+#home #panel-delivery-models #content #spectrum {
+	margin-bottom:70px;
+	height: auto;
+}
+
+#home #panel-delivery-models #content #spectrum .delivery-model-saas-active {
+	border: 5px solid #2F73B8;
+}
+
+#home #panel-delivery-models #content #spectrum .delivery-model-software-licensing-active {
+	border: 5px solid #EF6430;
+}
+
+#home #panel-delivery-models #content #spectrum .platform {
+  transition: transform 0.3s ease;
+}
+
+#home #panel-delivery-models #content #spectrum .delivery-model-current {
+  transform: scale(1.3);
+}
+
+#home #panel-delivery-models #content #spectrum .delivery-model-current:hover {
+	cursor: pointer;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left, #home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right, #home #panel-delivery-models #content #legend-bottom #arrow-right-text {
+	display: inline-block;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left, #home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right, #home #panel-delivery-models #content #legend-bottom #arrow-right-text {
+	opacity: 0.5;
+	transition: all 0.3s ease;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text {
+	background: #fff;
+	font-size: 16px;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left.active, #home #panel-delivery-models #content #legend-bottom #arrow-left-text.active, #home #panel-delivery-models #content #legend-bottom #arrow-right.active, #home #panel-delivery-models #content #legend-bottom #arrow-right-text.active {
+	opacity: 1;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent; 
+  border-right: 40px solid #fff; 
+  vertical-align: top;
+  margin-right: -3px;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text {
+	padding: 18px 30px;
+  width: calc(100% - 50px);
+  text-align: center;
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-left-text {
+	background: linear-gradient(to left, rgba(255,255,255,0.3) 33%,rgba(255,255,255,1) 100%);
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-right-text {
+	background: linear-gradient(to right, rgba(255,255,255,0.3) 33%,rgba(255,255,255,1) 100%);
+}
+
+#home #panel-delivery-models #content #legend-bottom #arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent; 
+  border-left: 40px solid #fff; 
+  vertical-align: top;
+  margin-left: -3px;
+}
+
+/***********************************************************************************************************************************
+	Panel - Testimonials
+***********************************************************************************************************************************/
+
+#home #panel-testimonials {
+	background: linear-gradient(#35759b, #1c4c6e);
+	color: #fff;
+	padding: 50px 0;
+}
+
+#home #panel-testimonials .slick-prev:before,
+#home #panel-testimonials .slick-next:before {
+	font-size: 50px;
+}
+
+#home #panel-testimonials .slick-next:before {
+	margin-left: 10px;
+}
+
+#home #panel-testimonials .slick-prev:before {
+	margin-left: -40px;
+}
+
+#home #panel-testimonials .testimonial img {
+	border: 5px solid white;
+}
+
+#home #panel-testimonials .testimonial h5 {
+	font-size: 35px;
+}
+
+#home #panel-testimonials .testimonial h6 {
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+
+#home #panel-testimonials .testimonial p {
+	font-size: 16px;
+}
+
+/***********************************************************************************************************************************
+	Panel - Panel About Ingram Micro Cloud
+***********************************************************************************************************************************/
+
+#home #panel-about {
+	background: linear-gradient(#82bff4, #fff);
+	padding: 50px 0 80px;
+}
+
+#home #panel-about h2 {
+	font-size: 40px;
+	color: #fff;
+}
+
+#home #panel-about h3 {
+	font-size: 20px;
+	color: #fff;
+}
+
+#home #panel-about #video-row {
+	margin-top: 40px;
+}
+
+#home #panel-about #video-row img {
+	width: 700px;
+}
+
+#home #panel-about #cta {
+	margin-top: 40px;
+}
+/*------------------------------new added---------------------------------------------------*/
+#panel-hero {
+  background: url("https://imc-acf-bwobst.c9users.io/wp-content/themes/bandaid/img/page-home/hero-blank.jpg") no-repeat scroll center top / cover ;
+  color: #000;
+  min-height: 300px;
+  padding: 18px 0;
+}
+.bn-txt {
+  padding: 0 10px;
+	color: #231f20;
+	max-width: 810px;
+}
+#panel-hero h1 {
+  color: #231f20;
+  font-size: 46px;
+  margin: 18px 0;}
+.bn-txt > p {
+  color: #231f20;
+  font-size: 22px;
+  font-weight: 500 !important;
+  line-height: 20px;
+}
+.btn.btn-bpartner {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #231f20;
+  color: #231f20;
+  font-weight: 600 !important;
+  margin: 10px 0;
+  padding: 8px 15px;
+}
+/*------------------------------responsive------------------------------------------*/
+@media (min-width: 992px) and (max-width:1199px) {
+	#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text {font-size: 16px;padding: 5px 30px !important;}
+	#panel-testimonials .slick-prev {left:0;margin: 0;}
+	#home #panel-testimonials .slick-prev::before, #home #panel-testimonials .slick-next::before {font-size: 30px;}
+	#panel-testimonials .slick-next {margin: 0;right:0;}
+}
+@media (min-width: 768px) and (max-width:992px) {
+	#home #panel-delivery-models #marketplace-icon-container .icon{width:100px;height: 100px;padding:5px 0;}
+	#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text{font-size:13px;padding: 12px 30px !important;}
+	#panel-testimonials .slick-prev {left:0;margin: 0;}
+	#home #panel-testimonials .slick-prev::before, #home #panel-testimonials .slick-next::before {font-size: 30px;}
+	#panel-testimonials .slick-next {margin: 0;right:0;}
+}
+@media (max-width: 767px) {
+	#home #panel-cloud-services #cta-section #see-all , #home #panel-delivery-models #content #spectrum .platform{margin-bottom:20px;}
+	#home #panel-cloud-services h3, #home #panel-delivery-models h3 , #home #panel-about h3 , #home #panel-testimonials .testimonial p , #home #panel-cloud-services #category-description p{font-size:14px;line-height: normal;}
+	#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text{font-size: 10px;margin-bottom: 20px;}
+	#panel-delivery-models .pull-left, #panel-delivery-models .pull-right {float: none !important;}
+	#home #panel-delivery-models #content #legend-bottom #arrow-left-text, #home #panel-delivery-models #content #legend-bottom #arrow-right-text{padding: 25px 30px;}
+	#panel-testimonials .slick-prev {left:0;margin: 0;top: 30%;}
+	#home #panel-testimonials .slick-prev::before, #home #panel-testimonials .slick-next::before {font-size: 30px;}
+	#panel-testimonials .slick-next {margin: 0;right:0;top: 30%;}
+	#home #panel-testimonials .slick-next::before , #home #panel-testimonials .slick-prev::before{margin-left:0;}
+	#home #panel-cloud-services #cta-section #more-information{display: block; margin: 0 auto;}
+	#home #panel-testimonials .testimonial img{max-width: 230px;}
+	#panel-hero h1{font-size:32px;}
+	.bn-txt > p{font-size:16px;}
+}

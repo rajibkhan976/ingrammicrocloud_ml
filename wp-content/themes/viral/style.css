@@ -1,0 +1,721 @@
+/*
+Theme Name: Viral
+Theme URI: http://exquisite-themes.com
+Description: Multipurpose Responsive Wordpress Theme
+Version: 1.1
+Author: ExquisiteThemes
+Author URI: http://exquisite-themes.com
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: responsive, multipurpose
+*/
+
+/* -----------------------
+Constact Form 7 Styling
+-------------------------*/
+
+.wpcf7-form-control.wpcf7-acceptance {
+  margin-bottom: 0;
+}
+
+/* -----------------------
+Megamenu Styling
+-------------------------*/
+
+.ubermenu .ubermenu-submenu-type-stack {
+	padding-top: 0;
+}
+
+.ubermenu .ubermenu-item-type-column>.ubermenu-submenu-type-stack>.ubermenu-item-normal:first-child {
+	margin-top: 0;
+}
+
+.ubermenu .ubermenu-submenu h6 {
+	margin-top: 10px;
+}
+
+#all-cloud-services {
+	margin-bottom: 10px;
+}
+
+
+/* -----------------------
+WooCommerce Hide Elements
+------------------------ */
+
+.woo-hover, mark[class="count"], .woocommerce ul.products li.product .button, .related {
+	display: none;
+}
+
+/* -----------------------
+WooCommerce Catalog Homepage
+------------------------ */
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	background-color: #f7f7f7;
+	min-height: 200px;
+}
+
+.woocommerce-page ul.products li.product a img {
+	margin: 0;
+	padding-top: 2em;
+}
+
+.woocommerce ul.products li.product h3 {
+	padding: 0;
+}
+
+#prdctfltr_woocommerce.prdctfltr_slide.prdctfltr_scroll_active .prdctfltr_woocommerce_ordering {
+	margin-bottom: 4em;
+	width: 75%;
+	background: #f7f7f7;
+	padding: 20px 0 20px 20px;
+	left: 20px;
+}
+
+.woocommerce-product-search > input[type="submit"] {
+	border-radius: .25em;
+	font-size: 18px !important;
+}
+
+/*-----------------------
+WooCommerce Category Page
+----------------------- */
+
+.woocommerce nav.woocommerce-pagination {
+	padding-left: 36%;
+}
+
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
+	padding: 0 2em 2em;
+	font-weight: 100 !important;
+	line-height: 1.5;
+}
+
+.woocommerce ul.products li.product a img {
+	width: 75%;
+	padding: 2em 2em 1em;
+}
+
+.product-category img {
+	display: none !important;
+}
+
+.product-category h3 {
+	margin-top: 25% !important;
+	font-size: 20px !important;
+}
+
+
+/*-----------------------
+WooCommerce Product List Pages
+----------------------- */
+
+/* Grey Tiles (break top category look/feel)
+	padding: 1em 0 0;
+	background-color: #f7f7f7;
+	border-radius: .3em;
+	min-height: 150px;
+ End Grey Tiles */
+
+
+/*-----------------------
+WooCommerce Product Pages
+----------------------- */
+
+.sku_wrapper {
+	display:none;
+}
+
+.woocommerce div.product div.images, .woocommerce div.product div.summary {
+	margin: 0 2em 6em 0;
+	width: 25%;
+}
+
+.woocommerce div.product .product_title {
+	padding: 0;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+	float: right;
+	width: 67%;
+}
+
+.woocommerce-tabs {
+	margin-right: 2em;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+	margin: 0 0 2em;
+	padding-bottom: 0;
+	border-bottom: 1px solid #lightgray;
+}
+
+#store-sidebar .content {
+	padding: 2em;
+	border-radius: .3em;
+	border: 1px solid #c6c6c6;	
+	margin-top: 7em;
+}
+
+.woocommerce div.product {
+	margin-top: 3em;
+}
+
+.posted_in, #tab-description h2, .tagged_as {
+	display:none;
+}
+
+.products h2 {
+	padding-top: 3em !important;
+}
+
+.widget.woocommerce {
+	padding-bottom: 0 !important;
+}
+
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab, .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content {
+	background-color: #fff;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+	display: none;
+}
+
+.woocommerce-page .related ul li.product img {
+	width: 50% !important;
+}
+
+.woocommerce div.product div.images img {
+	margin-top: 4em;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* General */
+.center {
+	text-align: center;
+}
+
+/* Text Separator Styles */
+.vc_separator.vc_separator_align_center h4 {
+	text-size: 26px !important;
+	color: black;
+}
+
+/* Careers Page */
+.jv-wrapper > h2 {
+	color: #131313;
+}
+
+/* Social Media Heartbeat Page */
+.wpb_tour .wpb_tabs_nav {
+	width: 14%;
+}
+
+.wpb_tour .wpb_tour_tabs_wrapper .wpb_tab {
+	width: 86%;
+}
+
+/* Events Page */
+
+h2.tribe-events-page-title, h2.tribe-events-single-event-title, h2 > a.url {
+    color: #000;
+}
+
+/* Hide Elements */
+
+#switch, .overlay-add, .post-preview-info, h1.h1-no-blue-line::after, .page-heading, .comments-links, .recent-preview, .layer a[data-rel="prettyPhoto"], #clearajax, .wpb_prev_slide, .wpb_next_slide, #post-0, .content > .post-featured-image, #loading, #qLoverlay {
+	display: none !important;	
+}
+
+
+/* Top Nav Bar */
+
+.nav-bar #logo {
+	line-height: 57px !important;
+}
+
+
+/* Home Page */
+
+.post-featured-image img, .portfolio-featured-image img {
+	width: 300px;
+}
+
+.counter-wrapper {
+	width: 250px !important;
+}
+
+#ilightbox_0 > ul > li {
+	width: 175px !important;
+}
+
+div#placement_224028_0 img {
+max-width: 728px !important; 
+height: 90px !important; 
+}
+
+/* Microsoft O365 Page */
+/* .page-id-4162 .content, .page-id-3936 .content, .page-id-3944 .content, .page-id-3945 .content,  {
+	margin-top: 0px !important;
+} */
+
+/* LabTech Landing Page */
+.page-id-4221 .vc_col-sm-12 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+/* About Page */
+
+.center-button {
+	text-align: center;
+}
+
+
+/* Cloud Solutions Page */
+
+.wpb_content_element .wpb_tabs_nav li {
+	padding: 15px 6px 15px 5px;
+}
+
+.ui-tabs-anchor {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.cloud-services-h2 h2 {
+	color: #000;
+	font-size: 20px;
+}
+
+.cloud-service-overview {
+	font-size: 18px;
+	padding: 0 50px 0 50px;
+}
+
+.service-name p {
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+}
+
+.cloud-service-description {
+	width: 100% !important;
+}
+
+.cloud-service-description p {
+	font-size: 16px;
+	color: #383838;
+}
+
+/* Blog Page */
+
+.post-featured-image img, .portfolio-featured-image img {
+	width: auto !important;
+}
+
+/* Marketplace Page */
+
+.ingram-blue, .ingram-blue hover {
+	background-color: #3076bb;
+}
+
+#ilightbox_1 > ul > li {
+	width: 60% !important;
+}
+.page-section-imagetop {
+display: none !important;
+}
+
+.ie8 .header {
+display: none !important;
+}
+
+.ie8 #switch {
+display: none !important;
+}
+
+.ie8 .overlay-add {
+display: none !important;
+}
+
+.ie8 .post-preview-info {
+display: none !important;
+}
+
+.ie8 h1.h1-no-blue-line::after {
+display: none !important;
+}
+
+.ie8 .page-heading {
+display: none !important;
+}
+
+.ie8 .comments-links {
+display: none !important;
+}
+
+.header {
+display: none\9 !important;
+}
+
+#switch {
+display: none\9 !important;
+}
+
+.overlay-add {
+display: none\9 !important;
+}
+
+.post-preview-info {
+display: none\9 !important;
+}
+
+h1.h1-no-blue-line::after {
+display: none\9 !important;
+}
+
+.page-heading {
+display: none\9 !important;
+}
+
+.comments-links {
+display: none\9 !important;
+}
+
+
+/*
+GRID SHUFFLE
+---------------------------------------------------------------------------------------------*/
+	.gs-onefourth	 {width: 275px}
+	.gs-twofourth	 {width: 570px}
+
+	.gs-onefourth img,
+	.gs-twofourth img {
+		height: 275px; width: 100% !important;
+		}
+
+	.gs-onefourth,
+	.gs-twofourth {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+		float: left;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		min-height: 1px;
+		position: relative;
+		}
+	.gs-clear		{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0 }
+	
+
+/*
+FLIP ANIMATION
+---------------------------------------------------------------------------------------------*/
+/* entire container, keeps perspective */
+	.flip-container {
+		background: #F9F9F9;
+		border: 1px solid #EEE;
+
+		-webkit-perspective: 1000;
+		-moz-perspective: 1000;
+		-ms-perspective: 1000;
+		perspective: 1000;
+		
+		-ms-transform: perspective(1000px);
+		-moz-transform: perspective(1000px);
+		-moz-transform-style: preserve-3d; 
+		-ms-transform-style: preserve-3d;
+		}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper,
+	.flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+		}
+	
+	.flip-container, .front, .back { height: 275px; width: 275px;}
+		.gs-twofourth .flip-container,
+		.gs-twofourth .front,
+		.gs-twofourth .back {
+			width: 570px;
+			}
+	
+	/* flip speed goes here */
+	.flipper {
+		-webkit-transition: 0.9s;
+		-webkit-transform-style: preserve-3d;
+		-ms-transition: 0.9s;
+		
+		-moz-transition: 0.9s;
+		-moz-transform: perspective(1000px);
+		-moz-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		
+		transition: 0.9s;
+		transform-style: preserve-3d;
+		
+		position: relative;
+		}
+	
+	/* hide back of pane during swap */
+	.front, .back {
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		
+		-webkit-transition: 0.9s;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transform: rotateY(0deg);
+		
+		-moz-transition: 0.9s;
+		-moz-transform-style: preserve-3d;
+		-moz-transform: rotateY(0deg);
+		
+		-o-transition: 0.9s;
+		-o-transform-style: preserve-3d;
+		-o-transform: rotateY(0deg);
+		
+		-ms-transition: 0.9s;
+		-ms-transform-style: preserve-3d;
+		-ms-transform: rotateY(0deg);
+		
+		transition: 0.9s;
+		transform-style: preserve-3d;
+		transform: rotateY(0deg);
+		
+		position: absolute;
+			left: 0; top: 0;
+		}
+	
+	/* front pane, placed above back */
+	.front {
+		z-index: 2;
+		/* for firefox 31 */
+		-webkit-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		}
+	
+	/* back, initially hidden pane */
+	.back {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+
+		-webkit-transform: rotateY(-180deg);
+		-moz-transform: rotateY(-180deg);
+		-o-transform: rotateY(-180deg);
+		-ms-transform: rotateY(-180deg);
+		transform: rotateY(-180deg);
+
+
+		background: #0071BA;
+		color: #FFF;
+
+		overflow: hidden;
+
+		/*padding: 20px;*/
+		}
+
+	body .back p {
+		color: #FFF !important;
+		font-size: 16px !important;
+		line-height: 1.25em !important;
+		margin: 10px !important;
+		padding: 0 !important;
+		text-align: center !important;
+		}
+	body .back h3 {
+		color: #FFF !important;
+		font-size: 20px !important; font-weight: bold !important;
+		line-height: 1.25em;
+		margin: 10px !important;
+		padding: 0 !important;
+		text-align: center !important;
+		}
+	
+	body a.zilla-button {
+		background: #F93;
+		color: #FFF !important;
+		display: block;
+		font-size: 16px !important; font-weight: bold;
+		margin: 5px;
+		padding: 10px 10px;
+		text-decoration: none;
+		}
+		
+
+
+
+/*
+IE10+ Targeting hack
+resource: https://philipnewcomer.net/2014/04/target-internet-explorer-10-11-css/
+---------------------------------------------------------------------------------------------*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+	/* entire container, keeps perspective */
+	.flip-container {
+		background: #EEE;
+		border: 1px solid #DDD;
+
+		perspective: 1000;
+		transform-style: preserve-3d;
+		}
+		/*  UPDATED! flip the pane when hovered */
+		.flip-container:hover .back {
+			transform: rotateY(0deg);
+			}
+		.flip-container:hover .front {
+		    transform: rotateY(180deg);
+			}
+
+	.flip-container:hover .flipper,
+	.flip-container.hover .flipper {
+		transform: rotateY(0deg);
+		}
+	
+	.flip-container, .front, .back {	width: 275px; height: 275px; }
+	
+	/* flip speed goes here */
+	.flipper {
+		transition: 0.9s;
+		transform-style: preserve-3d;
+	
+		position: relative;
+		}
+	
+	/* hide back of pane during swap */
+	.front, .back {
+		backface-visibility: hidden;
+		transition: 0.9s;
+		transform-style: preserve-3d;
+	
+		position: absolute;
+			top: 0; left: 0;
+		}
+	
+	/*  UPDATED! front pane, placed above back */
+	.front {
+		z-index: 2;
+		transform: rotateY(0deg);
+		}
+	
+	/* back, initially hidden pane */
+	.back {
+		transform: rotateY(-180deg);
+		}
+
+
+}
+
+		
+
+/*
+RESPONSIVE
+---------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:960px) and (max-width:1199px){
+	#content.hoverflip .span-12 {width: 940px}
+
+	.gs-onefourth	 {width: 215px}
+	.gs-twofourth	 {width: 450px}
+
+	.gs-onefourth img,
+	.gs-twofourth img {height: 215px;}
+
+	.flip-container, .front, .back {height: 215px; width: 215px;}
+		.gs-twofourth .flip-container,
+		.gs-twofourth .front,
+		.gs-twofourth .back {
+			width: 450px;
+			}
+
+	body .back p,
+	body a.zilla-button {font-size: 12px !important;}
+	body .back h3 {font-size: 14px !important;}
+}
+
+@media only screen and (min-width:768px) and (max-width:959px){
+	#content.hoverflip .span-12 {width: 748px}
+
+	.gs-onefourth	 {width: 167px}
+	.gs-twofourth	 {width: 354px}
+
+	.gs-onefourth img,
+	.gs-twofourth img {height: 167px;}
+
+	.flip-container, .front, .back {height: 167px; width: 167px;}
+		.gs-twofourth .flip-container,
+		.gs-twofourth .front,
+		.gs-twofourth .back {
+			width: 354px;
+			}
+
+	body .back p,
+	body a.zilla-button {font-size: 10px !important;}
+	body .back h3 {font-size: 14px !important;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+	#content.hoverflip .span-12 {width: 420px}
+
+	.gs-onefourth	 {width: 190px}
+	.gs-twofourth	 {width: 400px}
+
+	.gs-onefourth img,
+	.gs-twofourth img {height: 190px;}
+
+	.flip-container, .front, .back {height: 190px; width: 190px;}
+		.gs-twofourth .flip-container,
+		.gs-twofourth .front,
+		.gs-twofourth .back {
+			width: 400px;
+			}
+
+	body .back p,
+	body a.zilla-button {font-size: 12px !important;}
+	body .back h3 {font-size: 14px !important;}
+	.mobile-hide, .mobilehide {display: none;}
+}
+
+@media only screen and (min-width:300px) and (max-width:479px){
+	#content.hoverflip .span-12 {width: 300px}
+
+	.gs-onefourth	 {width: 130px}
+	.gs-twofourth	 {width: 280px}
+
+	.gs-onefourth img,
+	.gs-twofourth img {height: 130px;}
+
+	.flip-container, .front, .back {height: 130px; width: 130px;}
+		.gs-twofourth .flip-container,
+		.gs-twofourth .front,
+		.gs-twofourth .back {
+			width: 280px;
+			}
+
+	body .back p,
+	body a.zilla-button {font-size: 9px !important;}
+	body .back h3 {font-size: 14px !important;}
+	.mobile-hide, .mobilehide {display: none;}
+}
+
+.dateCSS {
+	font-style: italic;
+	display: block;
+	padding: 10px 0 20px;
+}
+
+.lcp_catlist > li > h3 {
+	padding: 50px 0 0 0;
+}
+
+.rounded-corners {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}

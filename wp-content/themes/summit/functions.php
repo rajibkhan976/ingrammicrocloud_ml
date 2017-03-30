@@ -123,12 +123,20 @@ function summit_scripts() {
 	wp_enqueue_style( 'summit-fontawesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'summit-style-colorbox', get_template_directory_uri() . '/css/colorbox.css' );
 	wp_enqueue_style( 'summit-style-animate', get_template_directory_uri() . '/css/animate.min.css' );
+	wp_enqueue_style( 'summit-tooltip', get_template_directory_uri() . '/css/tooltip.css' );
 	wp_enqueue_style( 'summit-style-custom', get_template_directory_uri() . '/css/custom.css' );
-
+	wp_enqueue_style( 'menu-style-custom', get_template_directory_uri() . '/css/menu.css' );
+	wp_enqueue_style( 'font-css-cdn', 'https://cloud.typography.com/7660872/660702/css/fonts.css' );
+	if (is_front_page()) {
+	wp_enqueue_style('bandaid-custom-page-landing-style', get_template_directory_uri() . '/css/custom/page-landing.css');
+	}
+	if (is_page('aps-partner-connect')) {
+	wp_enqueue_style('bandaid-custom-page-aps-style', get_template_directory_uri() . '/css/custom/page-aps.css');
+	}
 	//wp_enqueue_script( 'summit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 	//wp_enqueue_script( 'summit-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
-	wp_enqueue_script( 'summit-jquery', '//code.jquery.com/jquery-2.1.4.min.js' );
+	// wp_enqueue_script( 'summit-jquery', '//code.jquery.com/jquery-2.1.4.min.js' );
 	wp_enqueue_script( 'summit-jquery-migrate', '//code.jquery.com/jquery-migrate-1.2.1.min.js' );
 	wp_enqueue_script( 'summit-bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' );
 	wp_enqueue_script( 'summit-isotope-js', '//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js' );
@@ -136,6 +144,7 @@ function summit_scripts() {
 	wp_enqueue_script( 'summit-vide-js', get_template_directory_uri() . '/js/jquery.vide.js' );
 	wp_enqueue_script('summitcolorbox-js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.3/jquery.colorbox-min.js');
 	wp_enqueue_script( 'summit-wow-js', get_template_directory_uri() . '/js/wow.min.js' );
+	wp_enqueue_script( 'summit-js-tooltip', get_template_directory_uri() . '/js/tooltip.js' );
 	wp_enqueue_script( 'summit-js-custom', get_template_directory_uri() . '/js/custom.js' );
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
